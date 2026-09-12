@@ -1,0 +1,12 @@
+{
+  "scope": "CPU sampling only; same 10000 locations; 5 interleaved warm runs",
+  "baselineMedianMs": 293,
+  "calibratedMedianMs": 304,
+  "ratio": 1.039,
+  "baseline": "Milestone 2.1",
+  "revision": "Milestone 2.2",
+  "userReportedBaselineFPS": null,
+  "mobileBaselineSnapshotFPS": 60,
+  "calibratedGPUFPS": null,
+  "calibratedVisualVerification": "pending local PC review"
+}

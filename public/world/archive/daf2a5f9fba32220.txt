@@ -1,0 +1,266 @@
+Yes. I confirmed that **PHYVERA is registered as an existing Site under your ChatGPT account**, not merely as a link or temporary file. Another ChatGPT Work chat can retrieve and continue developing it through the Sites connection.
+
+Send this directive to the lead chat:
+
+> PHYVERA already exists as a private ChatGPT Site at [https://phyvera.crixyn.chatgpt.site](https://phyvera.crixyn.chatgpt.site). Use the Sites tools to locate the existing Site named “PHYVERA.” Do not create a replacement Site. Retrieve its current source/version and continue development on that same Site while preserving its private owner-only access, persistent database, existing architecture, and established Seedwoken canon boundaries.
+
+Important distinction:
+
+-  Chats inside the same ChatGPT Project share the Project’s uploaded files, instructions, and connected sources. [Official OpenAI documentation](https://learn.chatgpt.com/docs/projects?utm_source=chatgpt.com) 
+-  The **PHYVERA Site itself is accessed through Sites**, so the lead chat must be in **Work mode with Sites available**. 
+-  It does not need the original temporary development folder. 
+-  It should locate PHYVERA by name and continue the existing Site instead of rebuilding it. 
+-  An ordinary Chat response may understand the URL and conversation history, but it needs Work/Sites access to inspect and modify the application. 
+
+So the correct setup is: keep both chats inside the same Project for shared Seedwoken knowledge, and tell the lead development chat to retrieve the existing PHYVERA Site through Sites.
+
+The functional Milestone 1 build is now the baseline for PHYVERA.
+
+Do not create another Site, fork PHYVERA, or rebuild the application.
+
+Preserve the current working version before beginning the next milestone so we have a rollback point.
+
+The next milestone will be:
+
+PHYVERA VISUAL & INTERACTION SYSTEM v1
+
+Before modifying anything, inspect the complete existing PHYVERA Site and its current implementation.
+
+I have a Crixyn animated logo/video asset that will become part of the PHYVERA home-screen visual identity. The visual patch will also introduce a much more sophisticated Seedwoken-specific interaction system, including desktop mouse responses, mobile touch responses, animated controls, biological interface effects, transitions, and premium button behavior.
+
+Do NOT design or implement those effects yet.
+
+First audit the existing Site specifically for the upcoming visual patch.
+
+Determine:
+
+- which existing components and layouts should be preserved
+- which visual components need replacement or refinement
+- current responsive/mobile behavior
+- current navigation behavior
+- current animation/transition architecture
+- how a video banner can be incorporated efficiently
+- where pointer/mouse interactions can safely be introduced
+- equivalent touch behavior for mobile/tablet
+- how button animations can be implemented without harming usability
+- how reduced-motion accessibility should work
+- which portions of the interface need to remain visually quiet for reading biological information
+- whether any existing implementation would make future interactive 3D specimen viewing difficult
+
+Also preserve all existing biological data, species records, Veyra information, lifecycle information, glossary information, Canon Sync information, persistence, and working functionality.
+
+Do not deploy the visual patch yet.
+
+Return the audit to me and wait for the PHYVERA Visual & Interaction System v1 specification.
+
+Audit complete. No code, data, or deployment was changed.
+
+The currently deployed **PHYVERA Version 1** remains the preserved rollback point. I also verified the live database still contains the existing Rosavyn, Tomavyn, biology, lifecycle, Roseblush Veyra, glossary, visual-reference, and Canon Sync tables.
+
+## Preserve
+
+These parts form a strong foundation for the visual patch:
+
+-  Fixed desktop sidebar and compact top context bar 
+-  Current navigation categories and information architecture 
+-  Home → Library → Species Workspace flow 
+-  Species-level Biology, Lifecycle, Veyra, and Visual Reference tabs 
+-  Plain-language / biological-detail toggle 
+-  Canon, Proposal, and Unknown status system 
+-  Dark botanical color direction 
+-  Georgia-style biological/editorial headings 
+-  Persistent D1 database and API layer 
+-  Responsive card and reading layouts 
+-  Existing dialog-based creation workflows 
+-  Human-controlled Canon Sync principle 
+
+The upcoming patch should treat these as existing product behavior—not redesign the application around a different structure.
+
+## Refine or replace visually
+
+The weakest visual areas are:
+
+-  The generic leaf emblem and CSS-generated species glyphs 
+-  The home-screen orbital specimen graphic 
+-  Flat cards with limited visual hierarchy 
+-  Basic bright-green rectangular primary buttons 
+-  Inconsistent secondary/text-button affordances 
+-  Simple modal presentation 
+-  Status pills that are functional but visually generic 
+-  Quiet but somewhat unfinished top header 
+-  Repetitive surface styling across biologically different sections 
+-  Lack of loading transitions and meaningful change feedback 
+
+The home-screen specimen graphic is the clearest replacement point for the Crixyn animated logo/video. The existing hero text and Create Phyvera action should remain.
+
+## Current responsive behavior
+
+Desktop:
+
+-  Sidebar remains fixed at 260 pixels. 
+-  Main content stays separate and scrollable. 
+-  Biology uses a sticky specimen panel beside the biological records. 
+-  Lifecycle shows all seven stages horizontally in a grid. 
+-  Primary navigation buttons have good desktop-sized hit areas. 
+
+Mobile under 760 pixels:
+
+-  Sidebar becomes an off-canvas drawer. 
+-  A hamburger button opens navigation. 
+-  Cards, forms, references, and Biology stack vertically. 
+-  Lifecycle becomes a horizontally swipeable row. 
+-  Species tabs remain horizontally scrollable. 
+-  The home specimen graphic disappears completely. 
+-  Page actions move beneath headings. 
+-  The biological-detail toggle expands across the available width. 
+
+The mobile structure is workable, but several icon-only and text controls are approximately 24 pixels tall—smaller than desirable touch targets. These should gain larger invisible/visible hit areas during the interaction patch.
+
+## Navigation behavior
+
+PHYVERA is currently a single-page React application using internal state rather than separate URLs.
+
+Advantages:
+
+-  Navigation feels immediate. 
+-  Species selection persists while moving between biological sections. 
+-  Visual transitions can be coordinated centrally. 
+-  No route-loading flashes currently occur. 
+
+Limitations:
+
+-  Refreshing always returns to Home. 
+-  Browser Back does not move through PHYVERA sections. 
+-  Individual species or biological sections cannot be bookmarked. 
+-  All interface logic currently lives in one large page component. 
+
+Visual v1 does not require converting everything into routes, but the page should be separated into reusable shell, navigation, species workspace, modal, button, and motion components before sophisticated interaction logic accumulates.
+
+## Current animation architecture
+
+There is almost no animation system yet:
+
+-  Mobile sidebar uses one short transform transition. 
+-  Species cards move upward on hover, but without a coordinated transition. 
+-  No page transitions 
+-  No loading-state choreography 
+-  No button press animation 
+-  No pointer tracking 
+-  No touch-response layer 
+-  No reduced-motion rules 
+-  No centralized motion durations or easing values 
+
+This means the next milestone has a clean starting point, but motion should be introduced through shared design tokens and reusable interaction components—not scattered CSS rules.
+
+## Video-banner integration
+
+The existing Home hero is already the right structural container.
+
+Recommended approach for the specification:
+
+-  Incorporate the video within the hero instead of adding another large section. 
+-  Use it as the right-side identity surface on desktop. 
+-  Adapt it into a shallow cinematic banner or cropped identity panel on mobile. 
+-  Use `muted`, `playsInline`, and controlled looping where appropriate. 
+-  Provide a still poster frame before playback. 
+-  Avoid loading the full video before the interface becomes usable. 
+-  Pause playback when offscreen or when the page is backgrounded. 
+-  Show the poster instead of autoplaying when reduced motion is enabled. 
+-  Keep text contrast independent from the changing video frames. 
+
+PHYVERA currently has no media-storage binding. The final asset size and format will determine whether it belongs directly in the Site package or in proper object storage.
+
+## Safe pointer-interaction zones
+
+Pointer-responsive effects can safely appear on:
+
+-  Home video/specimen identity area 
+-  Navigation indicators 
+-  Species cards 
+-  Creation-mode cards 
+-  Primary and secondary buttons 
+-  Lifecycle-stage cards 
+-  Veyra pigment previews 
+-  Visual-reference thumbnails 
+-  Tabs and toggles 
+
+Pointer tracking should not disturb:
+
+-  Biology record text 
+-  Glossary definitions 
+-  Canon statements 
+-  Form fields 
+-  Approval/rejection controls 
+-  Long reading surfaces 
+
+Those areas should remain steady, high-contrast, and visually quiet.
+
+## Mobile and tablet equivalents
+
+No essential behavior should depend on hovering.
+
+Desktop responses should translate into:
+
+-  Press compression rather than hover lift 
+-  Short biological pulses from the touch point 
+-  Persistent selected states 
+-  Swipeable lifecycle/reference areas 
+-  Clear tap confirmation 
+-  Larger touch targets 
+-  No cursor-following effect on touch devices 
+-  No delayed actions that make taps feel sluggish 
+
+Pointer capabilities should be detected through input features such as hover and fine-pointer support, not screen width alone.
+
+## Premium button behavior
+
+The current buttons can support a shared premium button system without changing their underlying actions.
+
+The safe sequence is:
+
+1.  Immediate press compression 
+2.  Very short internal biological light/pigment response 
+3.  Action execution 
+4.  Loading or success state where saving occurs 
+5.  Return to rest without layout movement 
+
+Effects should never obscure labels, move the click target, delay destructive choices, or make Canon approval feel playful or ambiguous. Canon decisions should receive restrained, deliberate motion.
+
+## Reduced-motion requirements
+
+The current implementation has no reduced-motion support. Visual v1 should add a global reduced-motion mode that:
+
+-  Replaces video autoplay with its poster frame 
+-  Disables cursor-following and parallax 
+-  Removes large scaling and traveling effects 
+-  Replaces page movement with brief fades or immediate changes 
+-  Stops decorative looping animations 
+-  Preserves essential loading and success feedback 
+-  Maintains visible selected, pressed, and focus states 
+
+## Quiet reading areas
+
+The following should remain low-motion:
+
+-  Biology system rows 
+-  Technical explanations 
+-  Glossary entries 
+-  Canon Update Queue statements 
+-  Forms and field labels 
+-  Biological-detail mode 
+-  Unknown/proposed/canon labels 
+
+Motion should frame the information—not animate the information itself.
+
+## Future 3D specimen compatibility
+
+The current interface does not block future 3D viewing. The sticky specimen panel in Biology is an excellent eventual viewer location, and the Visual Lab provides a natural management surface.
+
+However, two architectural limitations must be addressed before 3D work:
+
+-  The present specimen graphic is a decorative CSS component rather than a replaceable viewer module. 
+-  Species data does not yet include structured anatomical regions, parent/child relationships, selectable geometry identifiers, or 3D asset references. 
+
+For Visual v1, the specimen surface should become a self-contained component with clean pointer-event boundaries. That will let a future 3D viewer replace its internal display without rebuilding the Biology workspace.
+
+PHYVERA is ready for the visual milestone. I’ll wait for the **PHYVERA Visual & Interaction System v1 specification** before changing anything.

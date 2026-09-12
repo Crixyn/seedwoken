@@ -1,0 +1,79 @@
+﻿SEEDWOKEN CANON UPDATE — 2026-09-06
+Solavyr Adult Male — Anatomical Reference 001
+Status: CANONICAL / LOCKED
+Asset: Solavyr Adult Male final corrected reference
+Gen ID: c3ba80c1-ac29-4e2b-b3d0-875e8925c4ed
+Defining correction: forward-facing male capitulum is rotationally consistent — front view shows reproductive disk, right-side view has disk facing the same direction as the face, back view shows green receptacle/bracts.
+Supersedes the earlier Solavyr adult-male reference plate with the incorrect side-view capitulum orientation.
+
+
+Solavyr Adult Female — Anatomical Reference 001
+Status: CANONICAL / LOCKED
+Gen ID: 3ed72808-a295-4714-96aa-9c81342a2ed9
+Defining anatomy: substantial feminine build; fuller paired botanical chest structures; backward-facing female capitulum on a separate upper-back peduncle; front view shows green receptacle and back view shows reproductive disk.
+
+
+VISUAL ASSET INDEX — CRIXYNCO
+
+
+Purpose
+This index governs the curated visual archive. It records which visual families belong in the master library and how to decide which version is authoritative.
+
+
+Core Selection Rule
+Keep the strongest current or final approved version of a visual concept. If later edits were made because an earlier version was disliked, inaccurate, unfinished, overly grainy, poorly composed, visually broken, or otherwise superseded, the later successful correction should replace the earlier version in the curated archive.
+
+
+When Multiple Versions Are Allowed
+Keep more than one image only when the versions serve genuinely different purposes: separate panels in a series, distinct stages in an instructional progression, alternate aspect ratios needed for publishing, intentionally different compositions, or client-requested variants that remain useful.
+
+
+Categories
+01 — Art & Illustration
+Traditional-art studies, finished illustration, botanical/fantasy artwork, drawing tutorial visuals, and standalone artistic compositions.
+
+
+02 — Branding & Logos
+CrixynCo marks, emblems, logo families, brand banners, identity explorations that remain current, and finalized icon systems.
+
+
+03 — Gardening & Plants
+Plant photography, seed/garden visuals, crop studies, garden education, container-growing references, and other horticultural assets.
+
+
+04 — Game & App Design
+Seedwoken/Phyveran assets, Rooted Northwest interface/graphics, sprites, cards, icons, app concepts, UI references, and product-design visuals.
+
+
+05 — Nature, Wildlife & Science
+Wildlife, geology, natural history, ocean/deep-sea subjects, scientific infographics, landscape-history work, and educational nature visuals.
+
+
+06 — Social & Marketing
+Promotional graphics, story/reel assets, QR/link promotions, campaign graphics, banners, and other platform-facing marketing material.
+
+
+07 — Client & Professional
+Client deliverables, professional visual aids, resume previews, workplace support graphics, website/deployment screenshots worth retaining, and business-process references.
+
+
+08 — Review Before Keep
+Temporary holding area for visuals whose final status is unclear. Nothing here should be treated as authoritative until reviewed.
+
+
+Current Known Keeper Families
+CrixynCo crescent-moon/leaf identity — retain only the strongest current identity direction rather than all logo experiments.
+Rooted Northwest — favor the most evolved current logo/icon family and current app-graphics direction.
+Colored-pencil learning — favor corrected/refined studies when an earlier instructional graphic was replaced.
+The Land Remembers / Missoula Floods — preserve the intended series panels and strongest supporting factual visuals; reject weaker redundant attempts.
+Deep-sea / wildlife work — retain distinct finished compositions and useful infographics rather than near-identical experiments.
+Garden and plant work — retain useful final educational or publishing assets; reject redundant generated variations.
+Client work — preserve final deliverables and only those process screenshots that document a still-relevant workflow.
+
+
+Naming Standard
+Where practical, use descriptive filenames that identify the subject and purpose. Generic camera names or generation timestamps should be renamed only when the visual has been positively identified.
+
+
+Archive Standard
+The curated library is a working master asset collection, not a complete history. The original source Library can preserve historical iterations separately. Do not clutter the curated Drive library with rejected drafts simply because they exist.

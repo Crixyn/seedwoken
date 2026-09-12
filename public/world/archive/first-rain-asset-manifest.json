@@ -1,0 +1,757 @@
+[
+  {
+    "path": "public/camas-awakening-sheet.png",
+    "sha256": "531dc70c881162ad906fc48f40289e3d15469d77b2a32781c5f9f59f729f8973",
+    "bytes": 1625551
+  },
+  {
+    "path": "public/camas-first-down-0.png",
+    "sha256": "367da7ef4f47e32fbff268ae1b3aa1c59850a63d4e07f141eb4818ed74ae56cc",
+    "bytes": 128070
+  },
+  {
+    "path": "public/camas-first-down-1.png",
+    "sha256": "c4229e6ee872badedfc3ffb9c0476df337047708e79bccb2bcdde42d4382b977",
+    "bytes": 125378
+  },
+  {
+    "path": "public/camas-first-down-2.png",
+    "sha256": "30aef2f8ffc549e63dc5c6295509a1b7fd833d17f098ed80adc6531e605acab9",
+    "bytes": 136069
+  },
+  {
+    "path": "public/camas-first-down-3.png",
+    "sha256": "38cc80776db9e63b7873bdd5551c3b220642932533d67791b38660ab5a4bdaf5",
+    "bytes": 139425
+  },
+  {
+    "path": "public/camas-first-left-0.png",
+    "sha256": "91ef651c6af489a1d25248168ca19a1d3ee09a32b0c8435d25f6214652219293",
+    "bytes": 141055
+  },
+  {
+    "path": "public/camas-first-left-1.png",
+    "sha256": "2730b6ae9001f51ee516810a22346f0b01fedc9f57eb4b8469c963efa7a0c1b6",
+    "bytes": 138495
+  },
+  {
+    "path": "public/camas-first-left-2.png",
+    "sha256": "2b1fe667842a1b39f95abbdb06d9881d905208fb1ee5665e38e7beb3c6186ad5",
+    "bytes": 136520
+  },
+  {
+    "path": "public/camas-first-left-3.png",
+    "sha256": "b32960899e2823ab73af30ba3ae03b05ae334a8bb0bc8294104910b468d48306",
+    "bytes": 136537
+  },
+  {
+    "path": "public/camas-first-right-0.png",
+    "sha256": "3fa49c753c654ba247caa3252fac03413544298249a462ad5d950c97434f7400",
+    "bytes": 139685
+  },
+  {
+    "path": "public/camas-first-right-1.png",
+    "sha256": "13a8230b2dd9987fa90d743b4a639b51ffb43721dc5a111a30d635e8f2a049ce",
+    "bytes": 137835
+  },
+  {
+    "path": "public/camas-first-right-2.png",
+    "sha256": "0df4478a65e6673fa5fb156d4e2137cdd59fc26eae14b63874c40ccea489f70c",
+    "bytes": 140639
+  },
+  {
+    "path": "public/camas-first-right-3.png",
+    "sha256": "5b5747a2c06f2b35d1ff249e630e71e315c9bdb7aed84292f9f88950117146b5",
+    "bytes": 133809
+  },
+  {
+    "path": "public/camas-first-up-0.png",
+    "sha256": "b054b996c9a32abfa2b11982928bb4e249d6c385ebfbe77fd828c13c1244a69e",
+    "bytes": 113305
+  },
+  {
+    "path": "public/camas-first-up-1.png",
+    "sha256": "1373fd5a1019e79a6861c0814c7b6a97232086696cea9de56c524ffd524ffa87",
+    "bytes": 111200
+  },
+  {
+    "path": "public/camas-first-up-2.png",
+    "sha256": "516f62376077fb793271565e0ffa3fa82c79efe000507b233623b41aa2142307",
+    "bytes": 113039
+  },
+  {
+    "path": "public/camas-first-up-3.png",
+    "sha256": "aa2fb62b209ee25468d0fdc65b6a1fefe92588965db4173f6650707563e577de",
+    "bytes": 111541
+  },
+  {
+    "path": "public/camas-lineage-transition.png",
+    "sha256": "0c1d1f3939ba8323bf9cf1d3f0dd1e6d810d89a53d2086468048a62b321feab5",
+    "bytes": 511453
+  },
+  {
+    "path": "public/camas-stage-0.png",
+    "sha256": "8a163e833a3813c59a96b867393b779b50e88e68f532ab2c906589415e08d64a",
+    "bytes": 1681489
+  },
+  {
+    "path": "public/camas-stage-1.png",
+    "sha256": "b1ca7c9d2908c0f437ba5ff9d07cc4057baaa6cc39f1a05fbf0e859f8721b3b9",
+    "bytes": 1605646
+  },
+  {
+    "path": "public/camas-stage-2.png",
+    "sha256": "3f81febfb7144386ce55990bdf0c8b1f2fc552f4376e561e49fd35804aee3b72",
+    "bytes": 1522449
+  },
+  {
+    "path": "public/camas-stage-3.png",
+    "sha256": "93955dff6bb88150ee7cb52b8b3c07a9ba54705bb38838433c62ca6e7a82fd2d",
+    "bytes": 2275472
+  },
+  {
+    "path": "public/dormant-hollow-v2.png",
+    "sha256": "2d1bd5561f0b19598b8d56f6a3e4304ecd4ec75bf6feef1ce4c5b97463237849",
+    "bytes": 3101911
+  },
+  {
+    "path": "public/dormant-hollow-v3.png",
+    "sha256": "5cbe8d8f772085a8521803acb81bec5e581bb3da2a572aeed7ff06974fd1ed72",
+    "bytes": 3173753
+  },
+  {
+    "path": "public/dormant-hollow-wide-v4.png",
+    "sha256": "bdb698f4dacfeb8bf8714755b8b11d24e6729daafeb38d565339902954d4f0ea",
+    "bytes": 2866315
+  },
+  {
+    "path": "public/dormant-hollow.png",
+    "sha256": "42c9ef617d66d9af971e591a4c8de8c34a5bb6b2872aa72b8bd41ad8779eb684",
+    "bytes": 2872938
+  },
+  {
+    "path": "public/favicon.svg",
+    "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+    "bytes": 712
+  },
+  {
+    "path": "public/fern-awakening-sheet.png",
+    "sha256": "a000dd18a9d8e5e23e4452498dc6bfff0ae482ce09d439a36dad0be6f38da157",
+    "bytes": 1781152
+  },
+  {
+    "path": "public/fern-first-down-0.png",
+    "sha256": "f59c59b4a7ed4291c4c1069f25059eba1ac8b280d7a958655beb06ce8e853173",
+    "bytes": 148478
+  },
+  {
+    "path": "public/fern-first-down-1.png",
+    "sha256": "a3b244dc424d5b5a23dc4ef71251fa4cf3881e7b15affdc6732c548aafccac47",
+    "bytes": 140504
+  },
+  {
+    "path": "public/fern-first-down-2.png",
+    "sha256": "cf8737f690532276918252625fe39f58f213cca6a3c089b773ae762b38f7b40b",
+    "bytes": 138793
+  },
+  {
+    "path": "public/fern-first-down-3.png",
+    "sha256": "34a1f247c02f54e1c712ac7750399db764fb294309cc46173ec0dd0d76c23083",
+    "bytes": 140061
+  },
+  {
+    "path": "public/fern-first-left-0.png",
+    "sha256": "8d4b5d792a4d333948fe0791495410b93fe1c34ae3d63547dfef9b9e2780719b",
+    "bytes": 139716
+  },
+  {
+    "path": "public/fern-first-left-1.png",
+    "sha256": "0445597dcde31a42bb8dbf04baad37ebb57b9055e8616bc5f1e2c3a07bfa03f6",
+    "bytes": 140265
+  },
+  {
+    "path": "public/fern-first-left-2.png",
+    "sha256": "8d51ae5ca614677f874ea27e323b7ff29ee98620da4c5d8bb1e77343061d30b7",
+    "bytes": 143099
+  },
+  {
+    "path": "public/fern-first-left-3.png",
+    "sha256": "de2ce38e2554f88f0af1b94632b4d1e39358a695ac5026fd035c0f0fcde4e66e",
+    "bytes": 139486
+  },
+  {
+    "path": "public/fern-first-right-0.png",
+    "sha256": "6dd60c2367a95a3955dabe729b4a3b65846548d09839ee9831c8031f454b67db",
+    "bytes": 143619
+  },
+  {
+    "path": "public/fern-first-right-1.png",
+    "sha256": "ab2e74e28269590e6b3895f4a3d5c189c31436c1a7b7d08648eb198b85f6178f",
+    "bytes": 143387
+  },
+  {
+    "path": "public/fern-first-right-2.png",
+    "sha256": "49a2249ca49d1a4ed98ddc5b95da71da3edf8ace1f0b8fad27af1d10213e2123",
+    "bytes": 145028
+  },
+  {
+    "path": "public/fern-first-right-3.png",
+    "sha256": "4175d5cbae5539a9f78084c8edc05f52b274f96fb70907b10e3491b6d0462883",
+    "bytes": 140176
+  },
+  {
+    "path": "public/fern-first-up-0.png",
+    "sha256": "c24825178e8f74ce0f3ebad49702043fefb565d1daedbeff1eb513a7a310e8ad",
+    "bytes": 133946
+  },
+  {
+    "path": "public/fern-first-up-1.png",
+    "sha256": "a4a7e6be9057aa1af9a07a90db4a02df278122282f6fe867027c7939c5257596",
+    "bytes": 130971
+  },
+  {
+    "path": "public/fern-first-up-2.png",
+    "sha256": "588519c0235a3532fc770eaf052494d61cf6099d71d177665c0b701fba60ffd0",
+    "bytes": 133749
+  },
+  {
+    "path": "public/fern-first-up-3.png",
+    "sha256": "813129de65d1d9e996d6a6b0939d4c4aad3a77ba49ba71439bdb4305d345eff2",
+    "bytes": 134107
+  },
+  {
+    "path": "public/fern-lineage-transition.png",
+    "sha256": "3561f480e955d99bf9d6915efbc5e3b69eb00dd0bf765a563740f8a95080362b",
+    "bytes": 713370
+  },
+  {
+    "path": "public/fern-stage-0.png",
+    "sha256": "6d952580d8f3a623613eb9256bf157defc482133f8c4ecf17af50360670d2fac",
+    "bytes": 1283640
+  },
+  {
+    "path": "public/fern-stage-1.png",
+    "sha256": "72562114640cbe27da1ed3204add57591a23ebd87f43fe9266b50d4c410f9874",
+    "bytes": 1610026
+  },
+  {
+    "path": "public/fern-stage-2.png",
+    "sha256": "b6ae331a8b3b59536b90f415c137384895913c329d82ad4db211d29061d17bc7",
+    "bytes": 1868644
+  },
+  {
+    "path": "public/fern-stage-3.png",
+    "sha256": "a52107f087a17955488b6391d95812a5219e5b84a8764199f04fd767f29714aa",
+    "bytes": 1995151
+  },
+  {
+    "path": "public/file.svg",
+    "sha256": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
+    "bytes": 392
+  },
+  {
+    "path": "public/globe.svg",
+    "sha256": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9",
+    "bytes": 1036
+  },
+  {
+    "path": "public/og.png",
+    "sha256": "67dfc7f1bac7de8723061e10e992441d81a8c73974889867fabd58266a28dc66",
+    "bytes": 1251010
+  },
+  {
+    "path": "public/reference/camas-turnaround.png",
+    "sha256": "04d90db899709a2b687cf14e2e1b8b5ef09c15228554fef1ed6cbc1a267d8b67",
+    "bytes": 2260463
+  },
+  {
+    "path": "public/reference/fern-turnaround.png",
+    "sha256": "a595a894a234aef893d5deba30fcae86c32477ed46bbe80a89b9689c99c32a50",
+    "bytes": 2007122
+  },
+  {
+    "path": "public/reference/sunflower-turnaround.png",
+    "sha256": "ffd549f96edb7b73bd666267306aa44e587652439e4f02309326396a48400d60",
+    "bytes": 2234839
+  },
+  {
+    "path": "public/seedwoken-cover.png",
+    "sha256": "2819122d97f13cee85137cc1b4b75ac0bb4506451f5d904a544cc2bbdb730a0d",
+    "bytes": 2509205
+  },
+  {
+    "path": "public/seedwoken-emblem.png",
+    "sha256": "d155c79374a41e85b29415d86f6de0184d164871a31a851666f28190db3dac0f",
+    "bytes": 310067
+  },
+  {
+    "path": "public/seedwoken-icon.png",
+    "sha256": "296f7d529f697310d4a97437cecac713c019c7a8fe924508e1b6a30e51e9b693",
+    "bytes": 1181885
+  },
+  {
+    "path": "public/seedwoken-title.png",
+    "sha256": "67dfc7f1bac7de8723061e10e992441d81a8c73974889867fabd58266a28dc66",
+    "bytes": 1251010
+  },
+  {
+    "path": "public/sunflower-awakening-sheet.png",
+    "sha256": "94d736252c553afc6cae61c1aa4f1c0bf92eb4daacbf01b6d7bef51735ccc5df",
+    "bytes": 2356486
+  },
+  {
+    "path": "public/sunflower-first-down-0.png",
+    "sha256": "8609938802e666565805ce64240d948ae30e31ef1052362bbf9547ed2d3d315a",
+    "bytes": 135175
+  },
+  {
+    "path": "public/sunflower-first-down-1.png",
+    "sha256": "c11a8b28cf24c8af9a3aa2733356bf9ccbdcdaeb36595c555502f7dadfad65be",
+    "bytes": 131019
+  },
+  {
+    "path": "public/sunflower-first-down-2.png",
+    "sha256": "47b27e6518a297ad1ca629408e56ceb62c965c45fd783e69cc253fe2799dad68",
+    "bytes": 131871
+  },
+  {
+    "path": "public/sunflower-first-down-3.png",
+    "sha256": "15278832937a6eed7a20a7e596990b9092d6653b39068db25d97f9458e8ca445",
+    "bytes": 133807
+  },
+  {
+    "path": "public/sunflower-first-left-0.png",
+    "sha256": "6cfc7f9c20c8bebff2bd2a1e4137b4ae9a36d46525bd26bf387f2196be7d9bd5",
+    "bytes": 134667
+  },
+  {
+    "path": "public/sunflower-first-left-1.png",
+    "sha256": "29e741e45f09d4decdf9f4920ea45518974a51147974b95f000e97d3b9755cd8",
+    "bytes": 132922
+  },
+  {
+    "path": "public/sunflower-first-left-2.png",
+    "sha256": "c8db37da8a940ed01a8213716849c1ecfbe107e96ad6ec4303ce6722e8daa543",
+    "bytes": 131033
+  },
+  {
+    "path": "public/sunflower-first-left-3.png",
+    "sha256": "4f9668a0be28f0cb3ba0ca6a5d71abc7156dee2f6bfa37cc1d9b2d697a87fd0d",
+    "bytes": 135873
+  },
+  {
+    "path": "public/sunflower-first-right-0.png",
+    "sha256": "cad14d3d6229dfcc09bb07b62bb01f70a1e7cbac7f28e9a451a50fe5544e1e35",
+    "bytes": 137580
+  },
+  {
+    "path": "public/sunflower-first-right-1.png",
+    "sha256": "5d68569c9b1a85376b3bcb6574b9368b44c291ee5810910694694c40d6918ee4",
+    "bytes": 131098
+  },
+  {
+    "path": "public/sunflower-first-right-2.png",
+    "sha256": "44c9d9cddef2c453ece639328d313475e76118aafb486e63cfb2b332dc465747",
+    "bytes": 134135
+  },
+  {
+    "path": "public/sunflower-first-right-3.png",
+    "sha256": "058ddfdc16ea8b6e1aefa31985272fd87eb769543a8cf2b537e533fcc7c84340",
+    "bytes": 138109
+  },
+  {
+    "path": "public/sunflower-first-up-0.png",
+    "sha256": "6b13983c2ec400f24766f7cdf9c252ea2612e819ac8af79118cf01cc123975c2",
+    "bytes": 127314
+  },
+  {
+    "path": "public/sunflower-first-up-1.png",
+    "sha256": "9bdf555cc486fc350b6c4a423a1700757bbaed84bb731649bb4b76612e258053",
+    "bytes": 124564
+  },
+  {
+    "path": "public/sunflower-first-up-2.png",
+    "sha256": "60c41bf91156d5ec1ba3e65b1c4bad198062019043e6a8ecdfd2a8991d99dc15",
+    "bytes": 125393
+  },
+  {
+    "path": "public/sunflower-first-up-3.png",
+    "sha256": "1de5715ae4beeb13e3e29e75e9cde7657bcadfa1388cb72589d99db042227da3",
+    "bytes": 125774
+  },
+  {
+    "path": "public/sunflower-lineage-transition.png",
+    "sha256": "0840c2ee9fd385488ac595caf6828ed2f8de4b841f6ed19f177efd2cfa1bdaab",
+    "bytes": 606718
+  },
+  {
+    "path": "public/sunflower-stage-0.png",
+    "sha256": "a0130e993c0d07b19c9ab7df7bac6b75101395e6ca7ef52db558af28bb0c6f93",
+    "bytes": 655361
+  },
+  {
+    "path": "public/sunflower-stage-1.png",
+    "sha256": "e5cb026cec6c5064b1bcead72ce1e50e0249e45c87afa96e24d545bd7d18db18",
+    "bytes": 1106186
+  },
+  {
+    "path": "public/sunflower-stage-2.png",
+    "sha256": "7b269bf9f47e63eb3d1ef95807770a9eed9abca696455e202678d54eff2a4f83",
+    "bytes": 1587678
+  },
+  {
+    "path": "public/sunflower-stage-3.png",
+    "sha256": "fab43d09f6dde9e3c95c559e6869fa117f9eaa8700284ebd695b54feb7aadb00",
+    "bytes": 1645630
+  },
+  {
+    "path": "public/wellkeeper-down-0.png",
+    "sha256": "acabfc45a1a9d7afbe859714f92854fe6dc38b1c1be1458868cf14bb2254afed",
+    "bytes": 94226
+  },
+  {
+    "path": "public/wellkeeper-down-1.png",
+    "sha256": "7a0cbe2c8cb8f28edf0046a3b73c634103107b5dd468a68ee4148b6fd99212d2",
+    "bytes": 95099
+  },
+  {
+    "path": "public/wellkeeper-down-2.png",
+    "sha256": "26617a7fe6dde87457ed533c6510b53c00cc6dd231ccff4ac9a03ad0a6f42e21",
+    "bytes": 96094
+  },
+  {
+    "path": "public/wellkeeper-down-3.png",
+    "sha256": "b1a66013c24c613b44dfd4658f21142119dd32b2a3ace45cd95dfc01d0683ebb",
+    "bytes": 91306
+  },
+  {
+    "path": "public/wellkeeper-frond-down-0.png",
+    "sha256": "9b856db7469502316009e7e655b8a97f2083c5fff4dba7236802e9e9bc885059",
+    "bytes": 153836
+  },
+  {
+    "path": "public/wellkeeper-frond-down-1.png",
+    "sha256": "f6f35b45f503a399455bd4c6977921e05f844a014a93028fa7b17338ab288e60",
+    "bytes": 149261
+  },
+  {
+    "path": "public/wellkeeper-frond-down-2.png",
+    "sha256": "2a04027d9bf03a9e3c628f14111340a8520da2e88d2e08345db705fd8452dd65",
+    "bytes": 150490
+  },
+  {
+    "path": "public/wellkeeper-frond-down-3.png",
+    "sha256": "687a6b31d645402f581cd8bf082e3c58e46c28063b5bc37b0c66ad426d3ad752",
+    "bytes": 150395
+  },
+  {
+    "path": "public/wellkeeper-frond-left-0.png",
+    "sha256": "3c8efa01155e2042bc6964e7fc1ec2dca7f5a71d6c9b7daf0abf77b8e1ea2ec3",
+    "bytes": 156911
+  },
+  {
+    "path": "public/wellkeeper-frond-left-1.png",
+    "sha256": "dc06ef40fa7762c4c944320899a6b5d6289b8a287b1df0f1955878cfe409ecae",
+    "bytes": 150230
+  },
+  {
+    "path": "public/wellkeeper-frond-left-2.png",
+    "sha256": "e7c24c10d5844586a51f9ed7440afb4481b1c11b60b4b9e0ca40d3c02d352953",
+    "bytes": 153543
+  },
+  {
+    "path": "public/wellkeeper-frond-left-3.png",
+    "sha256": "9eab0e3b8087a9c38cbf1e3a3b2c3212e82e988072a2bed7c0ac2bfdaf63bcce",
+    "bytes": 149327
+  },
+  {
+    "path": "public/wellkeeper-frond-right-0.png",
+    "sha256": "f92027e00db2fa72bdc819a507ec6b84c026fe2c7c80071773910d0a8868f613",
+    "bytes": 155474
+  },
+  {
+    "path": "public/wellkeeper-frond-right-1.png",
+    "sha256": "aa97e8235f7ba92ff0c109f1d29644e3ff5a7eb58f3f9abab856360375235582",
+    "bytes": 151105
+  },
+  {
+    "path": "public/wellkeeper-frond-right-2.png",
+    "sha256": "1395291bcd59ea513edb639805b5e0785599af6f174682e098cc40444b6b552f",
+    "bytes": 155359
+  },
+  {
+    "path": "public/wellkeeper-frond-right-3.png",
+    "sha256": "2171ce4302ced85512ae3d92ba1e1b9a3ecdd43a9015b477e8939c9274b3b504",
+    "bytes": 152862
+  },
+  {
+    "path": "public/wellkeeper-frond-up-0.png",
+    "sha256": "74c84c7ffc60a3b1d6cb2ea8e301ffc545bca602edb7effab76c021f71a342db",
+    "bytes": 150243
+  },
+  {
+    "path": "public/wellkeeper-frond-up-1.png",
+    "sha256": "ce7a013e9db1a5436fbf0dd1ff506f312e0e476682b4b046bb2c07c6b28e0f49",
+    "bytes": 149981
+  },
+  {
+    "path": "public/wellkeeper-frond-up-2.png",
+    "sha256": "92e62ca87f5ba8250209b7cf30b7a8d5abeacf3bfabd97db3d95819931d76152",
+    "bytes": 148227
+  },
+  {
+    "path": "public/wellkeeper-frond-up-3.png",
+    "sha256": "7ad92256acdab2513b946a41062442b872f6af41df0efffaf6f35cd77a3feb7e",
+    "bytes": 152663
+  },
+  {
+    "path": "public/wellkeeper-frond.png",
+    "sha256": "9b856db7469502316009e7e655b8a97f2083c5fff4dba7236802e9e9bc885059",
+    "bytes": 153836
+  },
+  {
+    "path": "public/wellkeeper-left-0.png",
+    "sha256": "a4d510388224d219de560571032a5c6ffeda79e2a98ec7f5057f006f979ed950",
+    "bytes": 104528
+  },
+  {
+    "path": "public/wellkeeper-left-1.png",
+    "sha256": "fe2368b3c6abab1ab73db83b5be4ee30f2bbb0a99f1ded926d1768feb0501e9f",
+    "bytes": 103313
+  },
+  {
+    "path": "public/wellkeeper-left-2.png",
+    "sha256": "48aa27ce5ff1255f793a0e6a36f82ec498d8fc7e9da0e6f61945a16d7e152fb3",
+    "bytes": 103884
+  },
+  {
+    "path": "public/wellkeeper-left-3.png",
+    "sha256": "deb976a2ad12ba53acc6edaff338af7994c57d4b0aa50c8868802d1fa7dbdc06",
+    "bytes": 104241
+  },
+  {
+    "path": "public/wellkeeper-rain-down-0.png",
+    "sha256": "5e02d4783fa088a00eaa707807f926b75812c269a2f2cfd948c366bbe3d37974",
+    "bytes": 137961
+  },
+  {
+    "path": "public/wellkeeper-rain-down-1.png",
+    "sha256": "774c42970f4d76515b9821aff74078245a016f593b8db3a9c49f67d83da8bd0b",
+    "bytes": 137886
+  },
+  {
+    "path": "public/wellkeeper-rain-down-2.png",
+    "sha256": "e88cf6f998d74d4b22aea32c4b09176048f9bd37bfcfb69324c34a8f6d5b7ace",
+    "bytes": 139473
+  },
+  {
+    "path": "public/wellkeeper-rain-down-3.png",
+    "sha256": "a9e4da0b246194e899d34f0adf99251314a8412b6e1421838154c0800454a04c",
+    "bytes": 139234
+  },
+  {
+    "path": "public/wellkeeper-rain-left-0.png",
+    "sha256": "dd33dbe734c5faab098699fb5a34cf12eea8bcbeea0e9cf4c5de5d3d727dfc24",
+    "bytes": 145809
+  },
+  {
+    "path": "public/wellkeeper-rain-left-1.png",
+    "sha256": "aa545fea2dc52e60ddc4e757397af839b92029bdcd4757d1962ea3bcca5bda38",
+    "bytes": 144004
+  },
+  {
+    "path": "public/wellkeeper-rain-left-2.png",
+    "sha256": "18cc3306fc7538816c4d7d545f7e377a1a9599b20f253153a923d9171ff48ace",
+    "bytes": 144264
+  },
+  {
+    "path": "public/wellkeeper-rain-left-3.png",
+    "sha256": "6b942b46df27dd7b3c8c80392e54cfe4deb4dfa1e09eba41e52113ca5e1c246c",
+    "bytes": 146633
+  },
+  {
+    "path": "public/wellkeeper-rain-right-0.png",
+    "sha256": "4ea797a6b794467f1578fe292866b9d138a284201caf3a4c4f5c367404d75c27",
+    "bytes": 145077
+  },
+  {
+    "path": "public/wellkeeper-rain-right-1.png",
+    "sha256": "b6735955c2b7175817ce05b7fdac86ed64f5236a9e3b4ab92c624e16e687d6c8",
+    "bytes": 144177
+  },
+  {
+    "path": "public/wellkeeper-rain-right-2.png",
+    "sha256": "f5651111a3f8325be1ed532dabd757410ed63e1cc4f8b8dc1a472f07134dbffc",
+    "bytes": 144427
+  },
+  {
+    "path": "public/wellkeeper-rain-right-3.png",
+    "sha256": "b80635480c38e549457c5327d562aae91e3378692a0e285d3121215674dcdb8f",
+    "bytes": 144550
+  },
+  {
+    "path": "public/wellkeeper-rain-up-0.png",
+    "sha256": "089238560f6f1543894433431757b10cc1b0a02a0d1cff4023309e039db7dd99",
+    "bytes": 135482
+  },
+  {
+    "path": "public/wellkeeper-rain-up-1.png",
+    "sha256": "46392023abb7026a2fc33ca91e1bba8b2a89ba1d36cbbd6ff822ccb72b8d3f00",
+    "bytes": 133113
+  },
+  {
+    "path": "public/wellkeeper-rain-up-2.png",
+    "sha256": "1ccca51b170bdf9aa147843ea4a63b56669002e4597c8c914bc8a8df468e2bed",
+    "bytes": 133271
+  },
+  {
+    "path": "public/wellkeeper-rain-up-3.png",
+    "sha256": "9627b773889426e7795b8bff749f72dfd0453cb56934cc9315317252464a4061",
+    "bytes": 135437
+  },
+  {
+    "path": "public/wellkeeper-rain.png",
+    "sha256": "5e02d4783fa088a00eaa707807f926b75812c269a2f2cfd948c366bbe3d37974",
+    "bytes": 137961
+  },
+  {
+    "path": "public/wellkeeper-right-0.png",
+    "sha256": "3f1f4a1593e060937f1a89f0503b513a683520b242a6f8f34276c0a4108d6385",
+    "bytes": 99860
+  },
+  {
+    "path": "public/wellkeeper-right-1.png",
+    "sha256": "1a25237119da57aa13407ada7c799d9533e881c9a1e69fe7236a31fe2c140d13",
+    "bytes": 97041
+  },
+  {
+    "path": "public/wellkeeper-right-2.png",
+    "sha256": "2a9761ffb8c8fa54f4c26d154e1161aa399b5095cd33e84ea7de5673bc73ead2",
+    "bytes": 101587
+  },
+  {
+    "path": "public/wellkeeper-right-3.png",
+    "sha256": "c1734f05084c56f870390f0a3380af493906e4a9e24afac2384d91215e226a77",
+    "bytes": 100106
+  },
+  {
+    "path": "public/wellkeeper-sun-down-0.png",
+    "sha256": "7954316e0629d77e35d2106570095d126253993547272ec3b963b82007f2d916",
+    "bytes": 93183
+  },
+  {
+    "path": "public/wellkeeper-sun-down-1.png",
+    "sha256": "4ee13486cad497777e2b123ccecabf73b405164fbdbfb801d39d8bd64bdd81c0",
+    "bytes": 92457
+  },
+  {
+    "path": "public/wellkeeper-sun-down-2.png",
+    "sha256": "f474599a1258cd2f68115d8890c6f2c44e86fc39a4d0920f5df25e04c0ff345e",
+    "bytes": 91519
+  },
+  {
+    "path": "public/wellkeeper-sun-down-3.png",
+    "sha256": "f80e72fa90fd728c4871058ecd1de23efdd919062f786955d57c9185405f4737",
+    "bytes": 89372
+  },
+  {
+    "path": "public/wellkeeper-sun-left-0.png",
+    "sha256": "0c7daaab96c4475ef37d6b783bd3389ba6558f1ee767eb7e58f125819ddef626",
+    "bytes": 101766
+  },
+  {
+    "path": "public/wellkeeper-sun-left-1.png",
+    "sha256": "ddeaadec9c88791fb0f83bd7cd657cbdc122ce2f2a8aee7c55f8674eb5a69929",
+    "bytes": 101757
+  },
+  {
+    "path": "public/wellkeeper-sun-left-2.png",
+    "sha256": "33e02a1b8e78ebe71ea46d27d53a7e84d6c70d40b646755dfaf92a7f9c4bc1e2",
+    "bytes": 102167
+  },
+  {
+    "path": "public/wellkeeper-sun-left-3.png",
+    "sha256": "6bb5f7d296afa12f5ae29b9079702e2a6ce56e9d548f3d359c7d5cfb8b8b8bdb",
+    "bytes": 101122
+  },
+  {
+    "path": "public/wellkeeper-sun-right-0.png",
+    "sha256": "2364365fa5d05ddbfb921b702033d2882d414b1389c6a0def23f829ddc5aa534",
+    "bytes": 100975
+  },
+  {
+    "path": "public/wellkeeper-sun-right-1.png",
+    "sha256": "11b08281f6eec424aed3f4d5e6977a23363be852b79be04aea33bf52bbe7d42c",
+    "bytes": 99373
+  },
+  {
+    "path": "public/wellkeeper-sun-right-2.png",
+    "sha256": "790932fa2ec9b007cac55314697d7f21004c82e36ed176fbf92cf09d7d91d6db",
+    "bytes": 99514
+  },
+  {
+    "path": "public/wellkeeper-sun-right-3.png",
+    "sha256": "10fbadfbf7212a228bb44fb0ca3051c2fd1eb30a8b96387baf141e8b840af0fd",
+    "bytes": 98261
+  },
+  {
+    "path": "public/wellkeeper-sun-up-0.png",
+    "sha256": "3f349a79802669375d7246e188755133bdbe0731c7eeb6edce977cba9b044599",
+    "bytes": 88072
+  },
+  {
+    "path": "public/wellkeeper-sun-up-1.png",
+    "sha256": "a35dcf674f32d4d50d6d3d1efd802946b11275ddd06773098d20a4d38edaa519",
+    "bytes": 86080
+  },
+  {
+    "path": "public/wellkeeper-sun-up-2.png",
+    "sha256": "aa785af7d2c612f06de38a186a08a26bfe1e529df8e5e4359f6d4ba8fc6fbc35",
+    "bytes": 85152
+  },
+  {
+    "path": "public/wellkeeper-sun-up-3.png",
+    "sha256": "585bccb395e6e857b9f47f4a1ee6b1a12e6eee70234e81a7850e858681c4f8e0",
+    "bytes": 85206
+  },
+  {
+    "path": "public/wellkeeper-sun.png",
+    "sha256": "7954316e0629d77e35d2106570095d126253993547272ec3b963b82007f2d916",
+    "bytes": 93183
+  },
+  {
+    "path": "public/wellkeeper-up-0.png",
+    "sha256": "03e384a55c933d38779ad187d327c08a5bb68e0cff01be72cc0ad7e1c85d9ff4",
+    "bytes": 101169
+  },
+  {
+    "path": "public/wellkeeper-up-1.png",
+    "sha256": "72379f7cdf763d0eb18b4f5be9a5034b1ef7955a4fb5471b7e3ba0b4d923d187",
+    "bytes": 100423
+  },
+  {
+    "path": "public/wellkeeper-up-2.png",
+    "sha256": "462d7b3283d22c4392e6021a514223ef8e853de6c5c3bc7e9a7346e213826477",
+    "bytes": 94976
+  },
+  {
+    "path": "public/wellkeeper-up-3.png",
+    "sha256": "06b833e194bafea951caafb07496aab715cbe40758ac2baaaf0467caaf4b8ce7",
+    "bytes": 96396
+  },
+  {
+    "path": "public/wellkeeper-walk-sheet.png",
+    "sha256": "3e109e2253eb65a852b0df71f62a8e369bcf56d6a400bfcd5ce70e16a1554399",
+    "bytes": 1585750
+  },
+  {
+    "path": "public/wellkeeper.png",
+    "sha256": "acabfc45a1a9d7afbe859714f92854fe6dc38b1c1be1458868cf14bb2254afed",
+    "bytes": 94226
+  },
+  {
+    "path": "public/window.svg",
+    "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
+    "bytes": 386
+  }
+]

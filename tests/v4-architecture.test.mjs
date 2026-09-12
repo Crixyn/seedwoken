@@ -1,0 +1,5 @@
+import assert from "node:assert/strict"; import { readFile } from "node:fs/promises"; import test from "node:test";
+const read=(p)=>readFile(new URL(`../${p}`,import.meta.url),"utf8");
+test("keeps AI secrets server-side and outputs structured classifications",async()=>{const [provider,page]=await Promise.all([read("lib/intelligence.ts"),read("app/page.tsx")]);assert.match(provider,/OPENAI|OpenAIProvider/);assert.match(provider,/canonSupport/);assert.match(provider,/unknowns/);assert.doesNotMatch(page,/OPENAI_API_KEY/)});
+test("exposes bounded read tools and proposal-only writes",async()=>{const [tools,bridge]=await Promise.all([read("lib/site-tools.ts"),read("app/api/bridge/route.ts")]);assert.match(tools,/readOnlyHint:true/);assert.match(bridge,/status:"proposed"/);assert.match(bridge,/canonStatus:"experimental"/);assert.doesNotMatch(tools,/reviewCanon|status:"canon"/)});
+test("generated visuals default experimental and retain masters",async()=>{const route=await read("app/api/visual-generation/route.ts");assert.match(route,/canonStatus:"experimental"/);assert.match(route,/BUCKET/);assert.match(route,/SHA-256/);assert.match(route,/gpt-image-2/)});

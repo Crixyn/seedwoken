@@ -1,0 +1,1218 @@
+Proceed with the EXISTING private PHYVERA Site.
+
+CURRENT PRODUCTION:
+PHYVERA Version 3
+Adaptive Foundation + Seedwoken Intelligence Architecture + Visual Archive
+
+Preserve Versions 1, 2, and 3 as rollback points.
+
+NEXT MILESTONE:
+
+PHYVERA VERSION 4
+CONNECTED INTELLIGENCE + VISUAL GENERATION + CHATGPT BRIDGE
+
+Do not create another Site.
+Do not fork PHYVERA.
+Do not rebuild the application.
+Do not replace the existing database.
+Do not discard the Version 3 responsive work.
+Do not alter established Seedwoken canon without explicit human approval.
+
+This milestone has FIVE connected objectives:
+
+A. FINAL PHYSICAL/RESPONSIVE HARDENING
+B. LIVE PHYVERA INTELLIGENCE
+C. LIVE VISUAL GENERATION
+D. CHATGPT ↔ PHYVERA BRIDGE
+E. DEEP VISUAL ARCHIVE / SPECIES REFERENCE SYSTEM
+
+Proceed autonomously through everything that can be completed safely.
+
+Only stop for me if an unavoidable step requires:
+- entering a private credential
+- enabling an account capability
+- authorizing paid API usage
+- explicit irreversible authorization
+
+Do not stop for ordinary coding/design decisions.
+
+==================================================
+A — RESPONSIVE HARDENING
+==================================================
+
+Version 3 corrected the known right-side clipping problem.
+
+Retain all adaptive improvements.
+
+Before adding new Version 4 interfaces, make sure every new component follows the same viewport-first architecture.
+
+The application must continue working in:
+
+small phone
+large phone
+portrait tablet
+landscape tablet
+narrow desktop window
+half-screen desktop
+portrait/tall desktop
+standard desktop
+ultrawide desktop
+
+Never assume a maximized window.
+
+No new AI drawer, generation interface, gallery panel, comparison view, tool panel, modal, image viewer, or metadata panel may reintroduce shell-level horizontal overflow.
+
+Prefer component/container-aware responsiveness over device assumptions.
+
+If automated browser/layout testing is supported, preserve the Version 3 viewport matrix as regression tests.
+
+==================================================
+B — LIVE PHYVERA INTELLIGENCE
+==================================================
+
+Version 3 already created:
+
+- central intelligence request schema
+- species-aware ContextBuilder
+- selected-record context
+- visual context
+- canon/source context
+- provider interface
+- isolated API route
+
+DO NOT replace this architecture.
+
+Complete it.
+
+PHYVERA must become a real specialized:
+
+SEEDWOKEN BIOLOGICAL INTELLIGENCE
+
+not a generic chatbot.
+
+--------------------------------------------------
+VERIFY CURRENT OPENAI/SITES CAPABILITIES
+--------------------------------------------------
+
+Current OpenAI documentation indicates ChatGPT Sites support owner-only configuration including secrets.
+
+Inspect the actual Site/runtime capabilities available to THIS PHYVERA Site.
+
+Determine whether a secret can be securely consumed by server-side Site execution/API routes.
+
+If yes:
+
+prepare a secure OpenAI provider using an owner-managed secret such as:
+
+OPENAI_API_KEY
+
+NEVER:
+- place it in source
+- place it in client JavaScript
+- expose it through browser network responses
+- log it
+- store it in D1
+- display it in UI
+- request that I paste the key into ordinary chat
+
+If configuration requires me to enter a secret through a secure Sites owner/settings interface, stop ONLY at that point and tell me exactly where/how to enter it.
+
+Do not ask me to send the secret in conversation.
+
+IMPORTANT:
+
+OpenAI API usage is billed separately from ChatGPT subscription usage.
+
+Do not activate paid model/image API calls without making that requirement clear if account-side API billing/authorization is required.
+
+--------------------------------------------------
+MODEL PROVIDER
+--------------------------------------------------
+
+Use the current supported OpenAI Responses API rather than obsolete integration patterns.
+
+Keep the existing provider abstraction.
+
+Do not tightly couple PHYVERA domain logic to one model ID.
+
+The provider should support configuration so models can evolve without rewriting PHYVERA.
+
+Select an appropriate current OpenAI reasoning model based on:
+
+reasoning quality
+structured output reliability
+latency
+cost
+
+Do NOT automatically select the most expensive model merely because it is the strongest.
+
+PHYVERA should be able to use different model profiles later for:
+
+QUICK EXPLANATION
+BIOLOGICAL ANALYSIS
+CANON CONFLICT REVIEW
+VISUAL SPECIFICATION
+DEEP SPECIES ANALYSIS
+
+--------------------------------------------------
+STRUCTURED OUTPUT
+--------------------------------------------------
+
+Do not rely on free-form prose parsing for important biological operations.
+
+Where appropriate use structured schemas.
+
+A biological analysis may contain concepts such as:
+
+summary
+plainLanguageExplanation
+technicalExplanation
+evidence
+canonSupport
+realBiologySupport
+inferences
+proposals
+conflicts
+unknowns
+affectedSystems
+suggestedChanges
+sourceReferences
+
+Exact schema should fit existing architecture.
+
+Validate model output before applying it anywhere.
+
+Invalid model output must never corrupt records.
+
+--------------------------------------------------
+CONTEXT ENGINE
+--------------------------------------------------
+
+The Version 3 ContextBuilder is foundational.
+
+Expand it intelligently.
+
+Relevant context may include:
+
+current species
+botanical ancestry
+current sex
+current lifecycle stage
+current Veyra
+selected biological system
+current record
+related biological records
+Codex-derived records
+canon
+approved visual references
+ecology
+known constraints
+visual constraints
+source provenance
+superseded information
+
+DO NOT send all Seedwoken knowledge with every request.
+
+Implement relevance-based context assembly.
+
+Maintain provenance.
+
+--------------------------------------------------
+INTELLIGENCE EXPERIENCE
+--------------------------------------------------
+
+Do NOT turn PHYVERA into a giant chatbot.
+
+AI should exist contextually throughout the biological instrument.
+
+Possible actions:
+
+EXPLAIN SIMPLY
+ANALYZE BIOLOGY
+CHECK PLAUSIBILITY
+CHECK CANON
+IDENTIFY CONFLICT
+COMPARE WITH ANCESTRAL PLANT
+SUGGEST ADAPTATION
+CHECK DEVELOPMENT
+ANALYZE DIMORPHISM
+PROPOSE CHANGE
+
+Only expose actions where relevant.
+
+An optional intelligence drawer may support natural-language questions.
+
+It must automatically understand the current PHYVERA context.
+
+Example:
+
+If user is viewing:
+
+Tomavyn
+→ Adult
+→ Male
+→ Biology
+
+and asks:
+
+"Why is he greener?"
+
+PHYVERA must already understand the species/stage/sex context.
+
+--------------------------------------------------
+KNOWLEDGE CLASSIFICATION
+--------------------------------------------------
+
+AI output must preserve:
+
+CANON
+SUPPORTED INFERENCE
+PLAUSIBLE PROPOSAL
+EXPERIMENTAL
+UNKNOWN
+SUPERSEDED
+
+Real-world biology must NOT automatically override intentional Seedwoken biology.
+
+Scientific implausibility may be flagged.
+
+It is not permission to rewrite canon.
+
+--------------------------------------------------
+CANON FIREWALL
+--------------------------------------------------
+
+This is mandatory.
+
+AI may:
+
+analyze
+explain
+compare
+detect conflict
+suggest
+create proposal
+send proposal to review
+
+AI may NOT:
+
+approve itself
+silently alter canonical records
+silently overwrite Codex material
+promote generated visuals to canon
+
+Only the human operator may perform final canon acceptance.
+
+==================================================
+C — LIVE VISUAL GENERATION
+==================================================
+
+Version 3 created the VisualSpecification architecture and image-provider boundary.
+
+Complete the real generation path if secure OpenAI access is available.
+
+Current OpenAI documentation identifies GPT-Image-2 as the current state-of-the-art OpenAI image-generation model.
+
+Do not hardcode PHYVERA around a permanent model assumption.
+
+Use the image provider abstraction.
+
+--------------------------------------------------
+GENERATION PIPELINE
+--------------------------------------------------
+
+The canonical architecture is:
+
+STRUCTURED SPECIES KNOWLEDGE
++
+BOTANICAL ANCESTRY
++
+LIFECYCLE STAGE
++
+SEX
++
+VEYRA
++
+CANONICAL ANATOMY
++
+APPROVED REFERENCES
++
+VISUAL CONSTRAINTS
++
+VIEW
++
+PRESENTATION
++
+OPTIONAL ENVIRONMENT
+
+→ VISUAL SPECIFICATION
+
+→ PROVIDER COMPILATION
+
+→ OPENAI IMAGE GENERATION
+
+→ EXPERIMENTAL VISUAL ASSET
+
+→ PHYVERA REVIEW
+
+→ HUMAN DECISION
+
+→ APPROVED REFERENCE / CANONICAL REFERENCE / REJECTED
+
+The operator should NOT need to manually construct giant image prompts.
+
+--------------------------------------------------
+VISUAL SPECIFICATION
+--------------------------------------------------
+
+Expand Version 3's structure where necessary.
+
+Support concepts such as:
+
+species
+botanical ancestry
+stage
+sex
+Veyra
+height/scale
+body proportions
+anatomy
+tissue distribution
+tissue material
+pigmentation
+leaf morphology
+root morphology
+flower/reproductive morphology
+defensive structures
+sensory structures
+required traits
+preferred traits
+prohibited traits
+known failure modes
+reference assets
+view angle
+camera framing
+lighting
+background
+reference/cinematic presentation
+environment
+consistency target
+
+Do not fill unknown biological properties just to make the specification look complete.
+
+UNKNOWN remains valid.
+
+--------------------------------------------------
+REFERENCE-AWARE GENERATION
+--------------------------------------------------
+
+Approved visuals must become meaningful generation inputs where supported.
+
+The system should be able to select the most relevant reference set based on:
+
+species
+stage
+sex
+Veyra
+view
+biological feature
+
+Do not indiscriminately send every image.
+
+Example:
+
+Generating Adult Male Rosavyn should prioritize the closest approved Adult Male/reference material rather than unrelated Infant references unless the latter contain necessary species-wide morphology.
+
+--------------------------------------------------
+GENERATION CONTROLS
+--------------------------------------------------
+
+Visual Lab should provide meaningful controls such as:
+
+Species
+Lifecycle Stage
+Sex
+Veyra
+View
+Presentation
+
+Useful View values may include:
+
+Front
+Back
+Left/Right Side
+3/4
+Top — only where useful
+
+Presentation may include:
+
+Neutral Biological Reference
+Anatomical/Inspection Reference
+Habitat Reference
+Cinematic
+
+Do not add meaningless controls merely for visual complexity.
+
+--------------------------------------------------
+EXPERIMENTAL BY DEFAULT
+--------------------------------------------------
+
+Every generated visual begins:
+
+EXPERIMENTAL
+
+Never CANONICAL.
+
+Review options:
+
+APPROVE AS REFERENCE
+PROPOSE AS CANON
+REJECT
+
+Formal canon acceptance remains a separate deliberate decision.
+
+--------------------------------------------------
+REJECTION MEMORY
+--------------------------------------------------
+
+Rejection should optionally capture WHY.
+
+Examples:
+
+wrong leaf morphology
+incorrect proportions
+too humanoid
+wrong pigmentation
+missing defensive structures
+unapproved fruit-like structures
+wrong developmental age
+wrong sexual dimorphism
+stylistic mismatch
+biological contradiction
+
+These are reason categories, NOT Rosavyn/Tomavyn canon.
+
+Store rejection knowledge structurally.
+
+Future VisualSpecification construction should be capable of considering relevant historical failure patterns.
+
+This creates visual learning without automatically training/fine-tuning a model.
+
+==================================================
+D — CHATGPT ↔ PHYVERA BRIDGE
+==================================================
+
+This is a major Version 4 objective.
+
+We want ongoing Seedwoken development conversations in ChatGPT to communicate with PHYVERA more directly.
+
+Current OpenAI functionality includes Site Tools based on WebMCP in the ChatGPT desktop built-in browser when a website exposes compatible tools.
+
+Investigate whether the EXISTING private PHYVERA Site can expose useful Site Tools/WebMCP capabilities.
+
+Do not publish PHYVERA publicly merely to accomplish this.
+
+Do not weaken owner-only access.
+
+--------------------------------------------------
+TARGET EXPERIENCE
+--------------------------------------------------
+
+Eventually, while PHYVERA is open in the ChatGPT desktop built-in browser, I should be able to tell ChatGPT things such as:
+
+"Check PHYVERA for Rosavyn's current adult female visual canon."
+
+"Compare what we just established with PHYVERA's Tomavyn record."
+
+"Send this proposed biological change to PHYVERA for review."
+
+"Find all canonical Seedform references."
+
+"Add this as an experimental visual reference."
+
+"Show me unresolved Rosavyn biology."
+
+The ChatGPT conversation and PHYVERA should be able to cooperate through explicit structured tools rather than copy/paste whenever supported.
+
+--------------------------------------------------
+READ TOOLS
+--------------------------------------------------
+
+If supported, prioritize safe read-only tools first.
+
+Potential tool capabilities:
+
+search_phyvera
+get_species
+get_species_biology
+get_lifecycle
+get_veyra
+get_canon_record
+get_visual_references
+search_knowledge
+get_unresolved_questions
+get_recent_changes
+
+Exact names should follow WebMCP/Site Tool conventions.
+
+Return structured, bounded data.
+
+Do not expose secrets/internal infrastructure.
+
+--------------------------------------------------
+WRITE / PROPOSAL TOOLS
+--------------------------------------------------
+
+If supported safely on the current account/runtime, potential write capabilities may include:
+
+propose_biology_change
+submit_knowledge_candidate
+add_experimental_visual
+submit_canon_candidate
+add_note
+
+IMPORTANT:
+
+ChatGPT must NOT receive a direct tool that silently establishes canon.
+
+Any cross-chat write should normally create:
+
+PROPOSAL
+EXPERIMENTAL
+NEEDS REVIEW
+
+rather than CANON.
+
+Final canon acceptance remains an intentional human action inside PHYVERA unless a future explicitly confirmed workflow is designed.
+
+--------------------------------------------------
+CURRENT ACCOUNT LIMITATIONS
+--------------------------------------------------
+
+Do not assume full custom MCP write support exists.
+
+OpenAI currently distinguishes WebMCP Site Tools and full custom MCP/App capabilities, with plan/runtime limitations.
+
+Detect what THIS account/Site can actually support.
+
+Implement the strongest REAL supported bridge.
+
+If only read/fetch is supported:
+implement read/fetch well.
+
+If write actions cannot be exposed:
+retain Version 3 Knowledge Sync/import path for writes.
+
+Do not fake cross-chat write access.
+
+--------------------------------------------------
+DESKTOP BUILT-IN BROWSER
+--------------------------------------------------
+
+If WebMCP Site Tools require the ChatGPT desktop built-in browser rather than Chrome/Firefox, document this clearly in the final report.
+
+Do not redesign the normal PHYVERA web interface around this limitation.
+
+PHYVERA must remain usable in ordinary browsers.
+
+--------------------------------------------------
+BRIDGE SECURITY
+--------------------------------------------------
+
+Site tools must:
+
+respect PHYVERA owner-only access
+return bounded information
+avoid secrets
+validate inputs
+rate-limit/limit expensive operations where relevant
+distinguish reads from mutations
+never bypass Canon Firewall
+avoid arbitrary database/query execution
+avoid arbitrary prompt execution
+
+No generic:
+
+execute_sql
+run_code
+write_any_record
+set_canon
+
+tools.
+
+Use narrow domain-specific contracts.
+
+==================================================
+E — DEEP VISUAL ARCHIVE / SPECIES REFERENCE SYSTEM
+==================================================
+
+Version 3 imported six accepted Rosavyn images and established the gallery architecture.
+
+Now make Gallery/Visual Lab a first-class Seedwoken visual-development system.
+
+It should scale from:
+
+6 images
+
+to:
+
+hundreds/thousands of species references
+
+without becoming a generic image folder.
+
+--------------------------------------------------
+GALLERY DETAIL EXPERIENCE
+--------------------------------------------------
+
+Every asset should support a detailed inspection view.
+
+Display applicable metadata:
+
+Species
+Stage
+Sex
+Veyra
+View
+Reference Type
+Status
+Date
+Generation
+Source
+Dimensions
+Parent Asset
+Supersedes
+Superseded By
+Associated Biology
+Associated Canon
+Required Traits
+Known Issues
+Rejection Reason
+Notes
+
+Do not display empty meaningless rows.
+
+--------------------------------------------------
+CANONICAL REFERENCE MATRIX
+--------------------------------------------------
+
+For each species, create a visual coverage/matrix concept.
+
+Possible dimensions:
+
+Lifecycle Stage
+Sex
+Veyra
+View
+
+Example:
+
+Adult Female
+Front      [reference]
+Back       [missing]
+Side       [reference]
+3/4        [canonical]
+
+Adult Male
+...
+
+The purpose is NOT to force every cell to be filled.
+
+It is to make visual coverage understandable.
+
+Allow filtering by Veyra without treating each Veyra as a species.
+
+--------------------------------------------------
+COMPARE MODE
+--------------------------------------------------
+
+Strengthen comparison.
+
+Useful comparisons:
+
+Male ↔ Female
+Stage ↔ Stage
+Veyra ↔ Veyra
+Front ↔ Back
+Previous ↔ Revision
+Experimental ↔ Canonical
+
+Comparison should show images prominently and align relevant metadata/constraints.
+
+Allow zoom/pan where technically appropriate.
+
+Do not animate comparison in a way that interferes with detailed inspection.
+
+--------------------------------------------------
+VISUAL LINEAGE
+--------------------------------------------------
+
+Every generated/revised visual should be able to preserve lineage.
+
+Example:
+
+Generation 001
+→ Revision 002
+→ Revision 003
+→ Approved Reference
+→ Canonical Reference
+
+Store relationships.
+
+A rejected branch may remain visible in history without cluttering the default canonical gallery.
+
+--------------------------------------------------
+VISUAL FAILURE KNOWLEDGE
+--------------------------------------------------
+
+Species should develop a structured library of known generation mistakes.
+
+This is NOT canon.
+
+It is production knowledge.
+
+Example categories:
+
+ANATOMY DRIFT
+BOTANICAL DRIFT
+COLOR DRIFT
+DIMORPHISM DRIFT
+STAGE DRIFT
+STYLE DRIFT
+PROPORTION DRIFT
+UNWANTED HUMANOID FEATURE
+UNWANTED PLANT FEATURE
+
+Allow specific descriptions.
+
+Future VisualSpecifications should incorporate relevant known failures as prohibited/avoidance constraints.
+
+--------------------------------------------------
+IMAGE STORAGE
+--------------------------------------------------
+
+Version 3 converted the six Rosavyn references to efficient WebP assets.
+
+Preserve quality.
+
+For a growing archive design for:
+
+original/master asset
+optimized display derivative
+thumbnail
+dimensions
+format
+hash/fingerprint
+metadata
+
+Do not repeatedly recompress the only master copy.
+
+Use lazy loading.
+
+Use responsive images where supported.
+
+Bound gallery queries.
+
+Use pagination/virtualization when library size warrants it.
+
+--------------------------------------------------
+VISUAL QUALITY
+--------------------------------------------------
+
+Gallery is a QUIET inspection zone.
+
+The Version 2 living interface language should remain around navigation and actions.
+
+Do not place moving biological effects over reference imagery.
+
+When inspecting a specimen:
+
+image accuracy
+detail
+zoom
+comparison
+metadata
+
+matter more than decorative animation.
+
+==================================================
+KNOWLEDGE BRIDGE WITH EXISTING PROJECT
+==================================================
+
+Version 3 successfully accessed:
+
+Seedwoken_Codex_v0.5.docx
+prior PHYVERA specifications
+Project decisions
+existing Site source
+
+Continue using accessible Project material.
+
+Do not assume Version 3 imported all useful Seedwoken history.
+
+Perform another targeted inventory for:
+
+Rosavyn
+Tomavyn
+Vaelora
+Phyvera terminology
+Veyra
+Kindling
+Seedform
+species lifecycle
+visual canon
+ecology
+accepted visual references
+superseded designs
+
+Import only supported information.
+
+Preserve provenance.
+
+If previous conversation material is accessible through the Project context, use it.
+
+If it is not actually accessible, report that rather than pretending.
+
+==================================================
+FUTURE CODEX RELATIONSHIP
+==================================================
+
+Codex remains the broad world archive.
+
+PHYVERA remains specialized biological intelligence.
+
+Do not duplicate the entire Codex into PHYVERA.
+
+Create relationships.
+
+Eventually:
+
+CODEX
+defines world truth
+
+PHYVERA
+models biological truth in operational detail
+
+The same concept should be traceable across both systems.
+
+==================================================
+SEARCH v2
+==================================================
+
+Upgrade unified search if needed.
+
+Search:
+
+species
+biology
+lifecycle
+Veyra
+terminology
+knowledge
+canon
+visual assets
+visual failure knowledge
+sources
+
+Results should clearly identify type.
+
+Support useful scoped search.
+
+Do not load the entire database client-side to search it.
+
+==================================================
+ENGINEERING STANDARD
+==================================================
+
+Retain the existing mature stack unless a specific technical requirement justifies change:
+
+Vinext
+React 19
+TypeScript
+Drizzle
+D1
+existing API architecture
+existing media system
+
+Use established libraries/patterns when they provide real benefit.
+
+Do not replace functioning infrastructure because a newer framework exists.
+
+Prefer:
+
+strong TypeScript contracts
+schema validation
+database migrations
+domain services
+provider adapters
+server-side secret handling
+bounded queries
+accessible components
+responsive CSS Grid/Flexbox/container queries
+automated regression tests
+integration tests for critical provider paths
+
+Separate:
+
+UI
+domain logic
+database
+knowledge
+canon
+AI
+image generation
+Site Tools/WebMCP
+media
+provider integrations
+
+==================================================
+OBSERVABILITY
+==================================================
+
+Add privacy-safe operational diagnostics for AI/generation.
+
+Useful fields:
+
+operation type
+provider
+model
+duration
+success/failure
+request ID where safe/useful
+estimated/actual usage where provider exposes it
+error category
+
+DO NOT log:
+
+API secrets
+full private prompts unnecessarily
+entire canon payloads
+sensitive raw model context
+
+Provide understandable failure messages.
+
+==================================================
+COST SAFETY
+==================================================
+
+Because API usage may incur separate charges:
+
+Do not create uncontrolled loops.
+
+No automatic repeated image generation.
+
+No background generation without explicit intent.
+
+No silent retry storms.
+
+Bound retries.
+
+Show when an action will invoke live AI/image generation.
+
+Where feasible, make usage/cost behavior understandable without cluttering the experience.
+
+Consider separate provider profiles for inexpensive routine explanations versus deep analysis.
+
+==================================================
+OFFLINE / PROVIDER FAILURE
+==================================================
+
+PHYVERA must remain a complete biological archive if OpenAI is unavailable.
+
+If provider fails:
+
+database works
+species works
+gallery works
+Biology works
+Lifecycle works
+Veyra works
+Glossary works
+Canon Sync works
+Knowledge Sync works
+
+Only the requested AI/generation operation fails.
+
+==================================================
+VERSION 4 CERTIFICATION
+==================================================
+
+RESPONSIVE:
+
+Re-run Version 3 viewport certification after all new UI is added.
+
+Confirm zero shell-level horizontal overflow.
+
+INTELLIGENCE:
+
+Demonstrate a REAL query if provider is configured.
+
+Suggested certification:
+
+Choose Rosavyn or Tomavyn.
+
+Ask a biological question whose answer requires:
+
+existing species knowledge
+real biology
+canon/inference distinction
+
+Verify the answer:
+
+uses current context
+does not contradict established canon
+labels proposal/inference appropriately
+provides plain-language explanation
+does not modify canon
+
+VISUAL SPECIFICATION:
+
+Build a real specification for an established species configuration.
+
+Verify structured source records and constraints are traceable.
+
+IMAGE GENERATION:
+
+If provider is live:
+
+Generate ONE certification specimen.
+
+Do not mass-generate.
+
+Store it EXPERIMENTAL.
+
+Verify:
+
+generation record
+provider/model
+VisualSpecification
+reference inputs
+lineage
+metadata
+status
+
+Then test:
+
+REJECT
+
+and/or
+
+APPROVE AS REFERENCE
+
+Do NOT automatically accept as canon.
+
+CHATGPT BRIDGE:
+
+If Site Tools/WebMCP is supported:
+
+Expose safe read capability.
+
+Test from the supported ChatGPT environment if Work can do so.
+
+Verify a tool can retrieve a known PHYVERA record.
+
+If safe write/proposal tools are supported:
+
+test ONE proposal insertion.
+
+Verify it enters NEEDS REVIEW/PROPOSED rather than canon.
+
+GALLERY:
+
+Verify:
+
+six imported Rosavyn references remain
+metadata remains
+detail works
+comparison works
+filters work
+coverage matrix works
+lineage works
+new Experimental generation appears correctly if generated
+rejected assets remain historically accessible
+
+DATA:
+
+Verify all existing:
+
+Rosavyn
+Tomavyn
+biology
+lifecycle
+Veyra
+glossary
+Codex-derived knowledge
+Canon Sync
+Knowledge Sync
+visual references
+
+survive.
+
+SECURITY:
+
+Verify:
+
+no API key client-side
+no secret in repository
+no secret in D1
+no secret in logs
+owner-only Site access preserved
+Site Tools respect authenticated access
+Canon Firewall cannot be bypassed
+
+==================================================
+DEPLOYMENT
+==================================================
+
+Preserve Version 3 before deployment.
+
+Successful milestone becomes:
+
+PHYVERA VERSION 4
+CONNECTED INTELLIGENCE
+
+Deploy to the SAME existing private PHYVERA Site.
+
+==================================================
+FINAL REPORT
+==================================================
+
+Return:
+
+1. Site/runtime secret capability discovered
+2. Whether user credential/billing action was required
+3. OpenAI provider implementation
+4. Reasoning model/profile architecture
+5. Intelligence features actually LIVE
+6. Certification biological query + classification result
+7. VisualSpecification improvements
+8. Image provider implementation
+9. Image generation actually LIVE or exact blocker
+10. Certification visual generated, if applicable
+11. Gallery/Visual Archive improvements
+12. Visual lineage/failure-memory implementation
+13. Site Tools/WebMCP support discovered
+14. ChatGPT → PHYVERA read capability actually LIVE
+15. ChatGPT → PHYVERA proposal/write capability actually LIVE or unavailable
+16. Exact account/runtime limitation if any
+17. Project/Codex knowledge additionally imported
+18. Responsive regression result
+19. Performance result
+20. API/cost safeguards
+21. Security audit
+22. Canon Firewall verification
+23. Existing data preservation
+24. Version/revision deployed
+25. ONLY genuine remaining user-required actions
+
+IMPORTANT FINAL RULE:
+
+Do not report an adapter, button, schema, mock, placeholder, or future hook as a LIVE capability.
+
+For every major integration use exactly one classification:
+
+LIVE
+PARTIAL
+BLOCKED
+NOT IMPLEMENTED
+
+Proceed autonomously until a genuinely user-required secure/account action is encountered.

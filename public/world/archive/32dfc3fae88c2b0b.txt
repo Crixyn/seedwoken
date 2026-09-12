@@ -1,0 +1,193 @@
+
+
+CONTENTS
+THE SEEDWOKEN CODEX is the living reference work of Vaelora: part natural history, world atlas, dictionary, encyclopedia, and visual canon. Entries distinguish established canon from unresolved questions and are designed to expand without losing continuity.
+THE ROOTMAP  •  SEEDWOKEN CODEX
+VAELORA — THE LIVING WORLD	3
+THE SIX CONTINENTS OF VAELORA	4
+Elaris — The Mainland	4
+Sahrel — The Sunscar	6
+Caelune — The Crown	8
+Vulkara — The Broken Furnace	10
+Thyrra — The Thousand Shores	10
+Nythrune — The Veiled Wilds	10
+AWAKENING	11
+The Kindling	11
+Seedform	11
+PHYVERA SPECIES	13
+001 — Rosavyn	13
+002 — Solavyr	22
+CODEX GROWTH NOTES	24
+
+VAELORA
+THE LIVING WORLD
+Vaelora is an ocean-bearing living world of six major continents, vast seas, mountain crowns, volcanic provinces, fragmented archipelagos, rain-shadow interiors, polar wilderness, and ecosystems that have spread into nearly every environment capable of sustaining them.
+From orbit, the world is familiar enough to understand and strange enough to know it is not Earth. Deep blue and blue-green oceans surround continents shaped by their own tectonic history. Warm shallow seas shift through turquoise, jade, and restrained violet-blue. Great river systems divide green interiors; island arcs trace active crust; glaciers occupy high ranges and polar ground; immense weather systems carry water and heat across the globe.
+Six Environmental Giants
+Vaelora's six continents are not single-biome territories. Each contains many climates shaped by latitude, elevation, mountains, currents, and distance from the sea. Their present working identities describe their largest environmental signatures rather than permanent names.
+The six are now known as Elaris, the Mainland; Sahrel, the Sunscar; Caelune, the Crown; Vulkara, the Broken Furnace; Thyrra, the Thousand Shores; and Nythrune, the Veiled Wilds. Their strongest identities range from great river country and deserts to high mountains, active volcanism, fragmented seas, and ancient hypercompetitive wilderness. None is a single-biome territory.
+A Planet That Participates
+Vaelora is more than the place where life happens. Its ground, water, deep interior, and living systems carry the unexplained phenomenon called Vael. Whether this reflects consciousness, a planetary biological network, something divine, or something for which no useful category yet exists remains unresolved.
+Most of the time, geology remains geology, rain remains weather, and roots still survive by water, minerals, light, and chemistry. Vael is not an excuse for every mystery. Its clearest intervention is rarer and far more consequential: when Vael enters the roots of a selected seedling and the Kindling begins.
+Life grows upon Vaelora. Life awakens because of it.
+
+THE SIX CONTINENTS OF VAELORA
+Vaelora's continents are environmental giants rather than single-biome territories. Latitude, elevation, currents, geology, rain shadows, and distance from the sea create many ecosystems within each landmass. Elaris is called the Mainland for cultural and historical reasons, not because it must be the physically largest continent.
+ELARIS — THE MAINLAND
+The temperate and civilizational heartland of the currently known world. Elaris combines broad forests, grasslands, wetlands, freshwater lakes, river valleys, foothills, colder northern forests, and warmer southern regions. Its relative environmental balance has supported extensive movement, settlement, study, and exchange, though its wilderness is by no means harmless.
+The Vaelorin is Vaelora's greatest known river, descending from the mountainous interior and crossing much of Elaris before opening into an immense wetland delta. Settlements, migration routes, pollinator corridors, and major ecosystems gather around it. The Silren, Mossrun, Avenwater, the Briarwash, and Orin's Fork are important tributaries and regional rivers without rivaling the Vaelorin's planetary significance.
+
+ELARIS — GEOGRAPHIC REFERENCE 001
+
+Canonical physical-geography reference • The Mainland • Vaelora
+This image establishes Elaris’s recognizable continental silhouette, Vaelorin river corridor and southern delta, northern source highlands and lake country, broad temperate interior, warmer southern wetlands and shallows, western island chains, southwestern bay, southeastern coast, and southern archipelagos. Future maps, regional names, ecology, settlements, histories, and stories should explain and correlate with these visible features rather than replacing them arbitrarily.
+
+SAHREL — THE SUNSCAR
+A dry continent whose geology remembers a wetter age. Ancient river valleys, fossil lake beds, salt flats, canyon systems, underground aquifers, oasis ecosystems, dry grasslands, and elevated desert plateaus reveal landscapes repeatedly transformed by water and its absence.
+The Sunscar is Sahrel's immense arid basin, enclosed by high plateaus and marked by severe day-night temperature swings. Rare rains can awaken dormant seed banks across enormous areas, briefly turning apparently barren country into explosive fields of growth and flowering.
+
+SAHREL — GEOGRAPHIC REFERENCE 001
+
+Canonical physical-geography plate. The visible Sunscar basin, northern remnant lake and watershed, ancient drainage networks, canyon and plateau country, southern dune system, surviving southern water corridor, coastal transitions, and island systems are now continuity constraints for future Sahrel geography and lore.
+Codex rule: major visible features in accepted geographic references are intended to be named, explained, and connected to geology, climate, ecology, history, cultures, species, travel, or story as the Seedwoken reference work develops.
+
+CAELUNE — THE CROWN
+Vaelora's great high-altitude continent. Mountain forests rise into cloud forests, plateaus, alpine meadows, exposed rock, glaciers, glacial lakes, and cold desert. Isolated valleys support lineages separated by formidable terrain.
+The Crownspine is a colossal system of converging mountain ranges. At its greatest convergence rises Mount Aevor, Vaelora's highest known mountain: a distinctive split crown of gigantic summit horns surrounding an ancient central glacial basin. Caelune's greatest killers are often ordinary physics—altitude, exposure, avalanche, crevasse, and violent weather.
+
+CAELUNE — GEOGRAPHIC REFERENCE 001
+
+Canonical continental-scale physical-geography plate. It establishes Caelune's macro-geography: the Crownspine's approximate extent and orientation, the great elevated interior, wet western forest-and-fjord country, eastern high rain-shadow steppe, northern glaciated terrain, interior lake and meltwater systems, the principal south-flowing watershed, southern lowlands, and major island systems.
+Scale note: Mount Aevor's approximate position is established within the upper-central Crownspine convergence, but this distant continental rendering does not define its final local morphology. A dedicated Mount Aevor geographic reference will later establish the split-crown summit, ancient high glacial basin, glaciers, and surrounding terrain at appropriate scale.
+
+VULKARA — THE BROKEN FURNACE
+One of Vaelora's two extreme-danger continents. Vulkara occupies a violently active tectonic province of volcanoes, earthquakes, ashfall, geothermal fields, fumaroles, hot springs, acidic and mineral-rich soils, unstable ground, and young volcanic islands. Destruction and recolonization are routine ecological pressures.
+The Cinderwake is the great active volcanic belt crossing Vulkara and continuing offshore through island arcs. It corresponds broadly to the prominent volcanic region visible on the canonical orbital cover. Vulkara is dangerous because the ground itself is unstable.
+THYRRA — THE THOUSAND SHORES
+An ancient continental mass fragmented by rifting and rising seas until the distinction between continent and archipelago became argumentative. Large islands, peninsulas, reefs, shallow and inland seas, drowned valleys, tidal wetlands, coastal cliffs, tropical forests, mangrove analogues, marine meadows, and inland highlands create extraordinary ecological isolation and exchange.
+Its vast fragmented coastal realm is called the Thousand Shores; the number is poetic, not a survey result. Thyrra is a natural future center for studying aquatic and amphibious Phyvera and corresponds broadly to the turquoise archipelagos and shallow seas visible on the canonical cover.
+NYTHRUNE — THE VEILED WILDS
+Vaelora's second extreme-danger continent, and the opposite of Vulkara. Its ancient stable landscapes allowed biological competition to intensify over immense spans of time. Multilayer forests, parasitic plants, complex fungal networks, wetlands, enormous root systems, defensive vegetation, and coevolved predators make life itself the principal hazard.
+The Veil is a vast forest-wetland complex whose canopies stack into multiple ecological worlds, leaving portions of the ground almost untouched by direct sunlight. Somewhere deeper lies the Firstroot. Reports disagree whether it is an organism, a geological structure consumed by roots, a site of unusual Vael activity, a myth, or something for which the Codex has no category. For now, it remains unresolved.
+Polar Vaelora
+Vaelora has substantial permanent ice, polar land, islands, glaciers, and sea ice, but no continent exists merely to serve as an Antarctica analogue. Polar environments instead occupy the extreme reaches of existing continental systems, including portions associated with Caelune and Thyrra. This preserves the frozen terrain visible from orbit while allowing the six continents to remain ecologically distinct.
+Two Ways to Die
+In Vulkara, the ground tries to kill you. In Nythrune, everything growing on it might beat the ground to it.
+
+AWAKENING
+Vaelora's planetary mystery becomes biologically consequential through Vael, the Kindling, and the developmental pathway that produces Phyvera. This section separates physical geography from the mechanisms of awakening.
+The Kindling
+A Kindling is the single, irreversible event in which Vael enters a selected rooted seedling or sapling and diverts it into Phyveran development. It happens once. It does not sputter, reconsider, or ask for a second attempt.
+To a witness, the event begins below or within the roots as a bioluminescent pulse. Light branches through the root network, converges at the root crown, then races upward through vascular tissue, stem, leaves, and finally the growing tip. When the light fades, the plant may look nearly ordinary. It is not.
+If a Kindling begins, awakening has succeeded; the organism can still later die from injury, disease, drought, or other ordinary causes. Why Vaelora Kindles one seedling and leaves another rooted in an ordinary botanical life is one of the central unanswered questions of the world.
+Seedform
+After Kindling, the plant redirects development toward a rooted enclosed structure called a Seedform—colloquially, an egg. It is not laid. It is grown. Shoots fold inward, protective tissues thicken, and the established root network continues supplying water and minerals while a mobile Phyveran body develops within.
+A Seedform should resemble the developmental logic of its plant lineage rather than an animal egg with leaves glued to it. In Rosavyn, that means something closer to a rose bud, gall, seed pod, and tightly folded cane growth. At emergence, parts of the original root system become incorporated into the young Phyveran's rootlike feet.
+Rosavyn Seedform Morphology
+The canonical Rosavyn Seedform is compact, rooted, and roughly ovoid, but it is not an animal egg. Living rose canes and protective botanical layers curve upward and inward around the developing organism, producing a form reminiscent of a tightly closed rose bud, gall, seed pod, and folded cane growth. The roots visibly transition into the base and remain the Seedform's active connection to soil, water, and minerals.
+The Seedform is not a container surrounding a separate creature. The entire structure is part of the developing Rosavyn. Future refinements should favor more tightly closed protective layers, folded young cane tissue and bud-scale-like growth, while keeping defensive structures anatomically faithful to rose prickles rather than oversized fantasy thorns.
+Veyra Emergence
+The Kindling initiates Veyra expression. During the transforming Kindled-seedling phase, subtle pigmentation hints may appear in new growth. By the mature Seedform stage, the future Rosavyn's Veyra is reliably visible to parents and other observers.
+The Seedform doesn't conceal the Veyra. It announces it.
+Veyra changes tissue pigmentation, not Seedform anatomy. Rosavyn Seedforms therefore share the same fundamental construction across Pale Thorn, Sage, Golden Cane, Roseblush, Mauve, Copper, Mahogany, and Umber. Pigmentation must remain biologically integrated into living tissues, with plausible gradients and secondary colors rather than paint, shell coating, flat uniform color, or persistent magical glow.
+The currently accepted Roseblush reference establishes the foundational Seedform morphology. Its generated measurements and incidental card text are not canonical unless separately approved, and the design may be refined later without discarding its core biological construction.
+
+Rosavyn — Canonical Seedform Reference 001: Roseblush Veyra
+
+The First Law of Awakening
+Love and mating create seeds. Seeds create plants. Only Vaelora creates Seedwoken.
+
+
+PHYVERA SPECIES  •  ENTRY 001
+001 — ROSAVYN
+Rose-line Phyvera  •  Botanical ancestry: Rosa spp.
+A rose learned to walk. Predictably, it kept the prickles.
+Field Profile
+What Makes a Rosavyn a Rosavyn?
+Rosavyn are not people wearing botanical accessories. Their bodies are the rose. Intertwined living canes form the frame; older load-bearing tissues lignify into textured wood while younger growth stays smoother, greener, and often red with anthocyanin. Pinnately compound, serrated leaves emerge from believable growth nodes. Curved prickles arise from cane tissue. Flowers are costly reproductive structures, not permanent jewelry.
+Sex & Bloom
+Rosavyn share one body plan, but mature floral placement creates a clear secondary sexual signal. Females develop the dominant bloom at the crown, where it reads almost like living floral hair without ceasing to be a real flower. Males carry the dominant bloom on a shoulder, shoulder blade, or upper back, visually broadening the silhouette like a botanical echo of musculature. Placement can be asymmetric; nature has never been famous for using a ruler.
+The Prickle Trick
+Rosavyn can voluntarily extend and retract their prickles into specialized cane tissue. Young individuals possess the structures but do not yet have full control. Mastery arrives around a future-defined maturation threshold analogous to puberty or coming of age; the exact age remains deliberately unsettled. Retraction makes close social contact and movement through dense growth safer. Extension restores the rose's ancient argument: please do not grab me.
+Veyra
+Veyra is the Phyveran term for an individual's dominant inherited body-tissue pigmentation expression. It is analogous to a pigmentation phenotype, not a race, sex, subspecies, ecotype, or flower color. A Veyra can shift in appearance across young shoots, old wood, scars, joints, seasons, and other tissues without becoming a different Veyra.
+Floral Expression
+Flower color is inherited separately from Veyra. Ordinary Rosavyn may bloom white or ivory, blush and pink, coral, salmon or apricot, yellow and golden, orange, scarlet, crimson, burgundy, lavender or mauve, near-black red, and natural gradients or bicolors. True blue is not an ordinary rose trait; a genuinely blue Rosavyn bloom would be a meaningful Phyveran mutation or event, not a paint swatch.
+Seasonal Life
+Spring — Awakening: Dormant buds break, reddish young shoots appear, and activity rises.
+Early Summer — Bloom: Foliage, fragrance, flowers, and pollinator activity reach their peak.
+Late Summer / Autumn — Fruiting: Successful flowers may develop rose hips; growth slows while resources are stored.
+Winter — Dormancy: Foliage can diminish or fall depending on lineage and climate. Woody structure dominates and movement slows.
+Ecology & Behavior
+Rosavyn are defensive and territorial more often than aggressive. When threatened they can contract their prickle-bearing limbs, hook or entangle with flexible canes, and protect rather than chase. Bees and other pollinators are ecological partners, not decorative particle effects. Fragrance, flower posture, pigmentation, and condition can also signal health, stress, and reproductive state.
+Resource allocation tells a story. Favorable light, water, nutrients, and low threat pressure favor leaves, flowers, fragrance, and fruit. Sustained stress favors denser cane, lignification, defense, and reduced flowering. Two genetically similar Rosavyn can therefore grow into visibly different adults without anyone needing to invent a 'battle skin.'
+Genetics & Variation
+Inherited ranges may affect flower color, petal number, fragrance chemistry, growth habit, mature size, foliage pigmentation, prickle density, hip size, disease resistance, and cold or drought tolerance. Environment modifies expression within plausible limits. Ecotypes and subspecies require real ecological or biological differences; color alone does not qualify.
+Reproduction: Seeds Before Miracles
+Rosavyn reproduction remains botanical at its core. Flowers, pollen, fertilization, rose hips, and seeds matter. Pair bonds and love can exist independently of reproduction, and pollinators may participate in both biology and culture. Successful reproduction can produce rose hips carrying genetically inherited seeds.
+Those seeds are not guaranteed children in the walking sense. They germinate as plants. Some may live their entire lives as rooted roses; a seedling becomes Rosavyn only if Vaelora Kindles it. A family lineage may therefore include both mobile Rosavyn and rooted rose descendants, making ancestral gardens quite literally family gardens.
+Exact male/female reproductive roles are intentionally unresolved. Real roses often contain both male and female floral structures, so Rosavyn reproduction will be designed from botanical biology rather than forcing mammalian mechanics onto a rose.
+Signature Talent — Briarhold
+Under severe threat, a Rosavyn can redirect stored resources into rapid extension and interlocking of existing young canes, forming a temporary living briar enclosure. It costs water and stored carbohydrates. Repeated use can suppress flowering, exhaust the individual, or cause cane dieback. Heroics, regrettably, still require calories.
+Vulnerabilities
+Fire becomes especially dangerous as woody tissue accumulates. Drought limits regeneration and bloom. Persistent fungal disease can strip vigor from the whole organism, heavy shade reduces growth, and overinvestment in defense steals resources from reproduction and fruiting.
+Developmental Stages
+Rosavyn development begins as ordinary Rosa-line life: Seed → Germination/Seedling. Most unkindled seedlings continue as ordinary rooted plants. A selected seedling experiences the Kindling, then passes through Transforming Kindled Seedling → Seedform → Infant → Mid Stage → Adult. The accepted Seedform, Infant, Mid Stage, and Adult references now anchor the developmental direction; ordinary germination, the Kindling event, and the transforming seedling remain to be visually established.
+Official Visual Record
+Rosavyn visual canon now includes Official Image Card 001 for the adult male and female, plus accepted Mid Stage female, Mid Stage male, Infant male, and Infant female reference cards. Together they establish a continuous developmental direction from infancy through adulthood. Female dominant blooms develop at the crown/head; male dominant blooms develop at the shoulder, shoulder blade, or upper back. Seedling remains the only major Rosavyn developmental stage not yet visually established. Earlier exploratory Rosavyn generations remain non-canon.
+
+Rosavyn — Official Image Card 001
+
+Canonical Developmental Gallery
+Accepted visual canon currently covers Adult, Mid Stage, and Infant Rosavyn. Seedling remains intentionally open for the next developmental design.
+
+Rosavyn — Official Mid Stage: Female
+
+Rosavyn — Official Mid Stage: Male
+
+Rosavyn — Official Infant Stage: Male
+
+Rosavyn — Official Infant Stage: Female
+
+
+Solavyr
+SPECIES 002 • SUNFLOWER-LINE PHYVERA
+Classification: Phyvera
+Botanical ancestry: Helianthus spp.; sunflower-line.
+Core identity: Height, sunlight, endurance, pollination, reproductive investment, resilience, and ecological coexistence.
+Adult scale: Males approximately 6–8 ft; females approximately 5.5–7.5 ft, with substantial individual overlap.
+Biology & Ecology
+Solavyr are mobile sunflower-derived Phyvera built from reinforced herbaceous stalk anatomy rather than woody tree tissue. Their bodies retain longitudinal vascular structure, coarse botanical trichomes, growth nodes, large functional Helianthus leaves, and compact root-derived feet. They are not primarily attack organisms: defense favors tough fibrous tissues, deterrent chemistry, trichomes, stability, and endurance. Their ecology is strongly pollinator-associated, and long-established Solavyr populations may influence nearby plant communities through the chemistry of shed tissues and root-associated compounds.
+Light Orientation & Rest
+Young Solavyr retain strong heliotropic and circadian repositioning. Adults retain exceptional awareness of sunlight direction, day length, sunrise, and seasonal change without continuously tracking the sun. Night rest is typically a stabilized standing or partially crouched brace-rest: root-feet spread for support, foliage lowers, activity decreases, and reproductive structures remain protected.
+Sexual Dimorphism
+Sex is primarily distinguished by reproductive architecture rather than human-like coloration. Adult males carry a predominantly forward-facing, upright capitulum associated with pollen presentation and pollinator exposure. Adult females carry a backward-facing, slightly upward/oblique capitulum on a separate reinforced peduncle emerging from the upper back. The female peduncle is physically separate from the neck and built to support increasing seed mass. As seeds mature, the capitulum may progress from backward/upward to backward and finally backward/downward. Canonical female anatomy also includes a fuller paired botanical chest structure, a substantial load-bearing build, and somewhat narrower, more elegant functional leaves.
+Signature Defensive Talent — Sunbrace
+Under severe physical stress, a Solavyr can redistribute tension through reinforced fibrous tissues, spread its root-derived feet, lower its center of gravity, and stiffen major vascular/fiber bundles. Sunbrace improves resistance to wind and impact but can cause tissue strain, temporary rigidity, and vascular damage if overused.
+
+
+Canonical Visual Record — Adult Male
+
+Solavyr Adult Male — Anatomical Reference 001. Canonical adult male visual anchor; forward-facing capitulum in all rotational views.
+
+
+Canonical Visual Record — Adult Female
+
+Solavyr Adult Female — Anatomical Reference 001. Canonical adult female visual anchor.
+CODEX GROWTH NOTES
+This Codex is intentionally modular. New species can be inserted as self-contained entries; accepted images can be added to each species' Visual Record; biology can be revised without rebuilding the book. The blank opening page is reserved for the future Seedwoken Codex cover artwork.
+Classification | Phyvera
+Common designation | Rosavyn (singular and plural)
+Height | about 3.5–4 ft
+Diet / resources | sunlight, water, minerals
+Temperament | calm, protective, socially selective
+Growth form | mobile woody perennial; living rose-cane anatomy
+Canonical Veyra | Typical expression
+Pale Thorn | ivory/cream-white; faint warm tan or green undertones
+Sage | muted gray-green
+Golden Cane | warm yellow/golden-ochre; green or light-brown secondary growth
+Roseblush | soft rose-pink, dusty blush to muted warm pink
+Mauve | muted purple/plum; burgundy, brown, or green secondary tones
+Copper | bronze/copper-brown; reddish young-growth accents
+Mahogany | rich deep reddish brown; green/red secondary growth
+Umber | deep earthy brown; subtle red/olive undertones

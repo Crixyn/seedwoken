@@ -1,0 +1,133 @@
+﻿CANON UPDATE — 2026-09-06
+Species 002 — SOLAVYR
+Adult male visual canon corrected and locked. Male capitulum is forward-facing in fixed 3D orientation: front = reproductive disk visible; side = disk points with the face; back = green receptacle/bracts visible. Canonical male reference Gen ID c3ba80c1-ac29-4e2b-b3d0-875e8925c4ed. This supersedes the prior male plate with the side-view orientation error.
+Adult female Anatomical Reference 001 remains locked, Gen ID 3ed72808-a295-4714-96aa-9c81342a2ed9, with backward-facing capitulum and established female dimorphism.
+Codex master advanced to v1.4 with corrected species ordering and visual plate.
+
+
+SEEDWOKEN / PHYVERAN — GAME DESIGN MASTER
+
+
+Purpose
+Current-source design reference for the garden-growth game project. Keep the strongest current mechanics, visual direction, lore decisions, and technical priorities; superseded experiments should not remain authoritative.
+
+
+Core Concept
+A lightweight top-down garden-growth world with no human characters. The player interacts with living plant-linked creatures, weather, water, environmental signals, and an original ecological/fantasy setting.
+
+
+Naming
+Seedwoken is the accessible/mainstream project name currently in use. Phyveran is the more professional or evolved naming direction reserved for future refinement.
+
+
+Player Role
+The controllable character is the Wellkeeper. Movement should feel smooth, readable, and intentional on both touch and desktop. Preferred interaction direction includes joystick and click-to-move rather than dependence on WASD.
+
+
+Opening Loop
+The player begins by choosing among three species/signals. The choice leads into an egg/seed-linked creature system. Creatures should hatch visibly, appear reliably in-world, and follow the player correctly.
+
+
+Creature System
+Creatures are plant-linked beings with staged development. Their stages should be biologically inspired and visually coherent rather than framed as generic monster evolutions. Cards and eggs should communicate lineage, stage, and identity clearly.
+
+
+World & Lore
+Earth-like environmental zones and weather systems, including Pacific Northwest influence, are part of the identity. The setting contains no humans and should build its own internal history and ecological logic.
+
+
+Visual Direction
+Readable, polished 2D presentation with strong cards, distinctive Wellkeeper lineages/color schemes, ancient well imagery, cleaner terrain, and reduced grain. Character art must be complete at selection screens and in-game; broken placeholders are unacceptable.
+
+
+Movement & Camera Standard
+Fix facing direction, follow behavior, camera direction, and joystick scale before adding unnecessary new features. The game should feel responsive rather than choppy.
+
+
+Known Priority Issues
+Wellkeeper selection artwork quality and completeness; creature appearance after hatching; creature follow behavior; lateral facing; camera behavior; card clipping; accidental UI interactions; egg/card visual artifacts; consistent animation logic.
+
+
+Technical Direction
+Keep systems structured so assets, logic, and design decisions can eventually transfer into a more advanced engine such as Unreal without requiring a conceptual rebuild.
+
+
+Design Rule
+Core playability and visual clarity take priority over feature expansion. New additions should not be layered on top of unresolved movement, selection, or creature-spawn problems.
+
+
+Expanded Historical Specifications
+
+
+World Structure
+The early prototype is a 2D top-down garden-growth game intended to stay lightweight while proving the core systems. The world should feel Earth-adjacent rather than abstract: recognizable seasons, weather, terrain zones, plant relationships, and Pacific Northwest species can coexist with original fantasy ecology.
+The game should not introduce human NPCs simply to explain systems. Lore, signs, environmental behavior, the well, cards, creatures, and discoveries should teach the world organically.
+
+
+Wellkeeper
+The Wellkeeper is the player's visible unit rather than a generic cursor/avatar. Four visual lineage/color schemes were explored; each needs fully finished artwork rather than palette-swapped unfinished boxes.
+Movement requirements:
+• touchscreen joystick support;
+• click/tap-to-move support;
+• no dependency on WASD as the primary design;
+• correct left/right facing when moving laterally;
+• camera follows in the same intuitive direction as movement;
+• joystick should not dominate the playfield;
+• acceleration/follow behavior should feel smooth rather than snapping/chopping.
+
+
+Three-Signal Opening
+The opening uses three discoverable signals/species choices. Each signal should communicate that an interaction is available and what the player is offering/doing; the earlier 'offer water drop' interaction was not self-explanatory enough and needs an explicit prompt/feedback state.
+Selecting a signal should present a polished species card and lead into the egg/hatching sequence. The other species remain discoverable/acquirable later rather than permanently locking the player out.
+
+
+Eggs, Hatching & Stages
+Each creature lineage uses an egg/seed-linked origin and three developmental stages. Use 'stages' rather than generic 'evolutions.'
+The hatch sequence should be visually legible and deterministic enough that the creature actually exists in the world afterward.
+Required post-hatch behavior:
+1. spawn the correct creature instance;
+2. attach the correct lineage/stage data;
+3. make it visibly appear at a safe valid location;
+4. begin follow behavior;
+5. preserve it across the relevant game state instead of visually disappearing.
+Creature art should be produced as clean isolated assets with useful angles/poses so future animation or 3D translation is possible.
+
+
+Cards & UI
+Species/signal cards are part of the identity, not disposable UI. Card artwork should have complete top and bottom bounds, readable hierarchy, clean framing, and no clipped artwork.
+Known prior UI defects to prevent:
+• top of visual cards being cut off;
+• top-right seed text accidentally opening an unrelated dictionary interaction;
+• line/artifact through the sunflower egg asset;
+• unfinished Wellkeeper/Gatekeeper artwork blocking selection;
+• unclear interaction prompts;
+• oversized joystick;
+• selection art differing from the actual in-game character.
+
+
+Well / Environment
+The well should read as ancient, important, and physically embedded in the world rather than a small decorative circle. Earlier visual direction called for a larger, more monumental well and a cleaner surrounding play area.
+Map direction included expanding usable space toward the right while reducing excessive grain and over-vibrance. Terrain should support readability of characters, signals, eggs, and cards instead of visually competing with them.
+
+
+Growth Mechanic
+Water/cooling interactions are central to growth. Growth should feel causal: player action → environmental/creature response → visible development. Avoid adding systems that obscure this primary loop before it is satisfying.
+
+
+Art & Animation Standard
+Characters need more than a glow or recolor to communicate lineage. Silhouette, markings, material/plant traits, accessories, and animation language should contribute.
+Animation should preserve character identity across directional movement. If sprites are generated or redrawn, directional frames must be checked against one another rather than assumed consistent.
+Cards, eggs, creatures, and menu portraits should look like one product family.
+
+
+Current Development Priority Order
+1. Make Wellkeeper selection reliably usable with finished art.
+2. Fix core movement, lateral facing, camera follow, and joystick behavior.
+3. Make hatch → spawn → follow work every time.
+4. Repair card clipping, accidental UI taps, and visual artifacts.
+5. Bring cards/creatures/Wellkeeper/environment to a coherent visual standard.
+6. Only then expand map, systems, lore events, and additional species.
+
+
+Future Portability
+Keep data for species, stages, cards, movement parameters, world objects, and interactions separate from rendering wherever possible. This makes a future Unreal or more advanced-engine migration feasible without rewriting the game concept from scratch.

@@ -1,0 +1,720 @@
+Proceed with PHYVERA VISUAL & INTERACTION SYSTEM v1.
+
+Apply this patch to the EXISTING PHYVERA Site you just audited.
+
+DO NOT:
+- create another Site
+- rebuild PHYVERA
+- replace its database
+- change established biological data
+- change Seedwoken canon
+- remove existing working functionality
+- change the established information architecture without a functional reason
+
+PHYVERA Version 1 remains the rollback point.
+
+==================================================
+CORE VISUAL CONCEPT
+==================================================
+
+PHYVERA should feel like a sophisticated biological instrument created specifically for studying life on Vaelora.
+
+Its visual identity belongs to the Crixyn ecosystem, but PHYVERA has its own specialized biological character.
+
+The desired combination is:
+
+CRIXYN
+dark dimensional materials
+obsidian/near-black space
+metallic depth
+cerulean electrical energy
+turquoise/blue-green living energy
+sharp restrained highlights
+
+×
+
+SEEDWOKEN
+living botanical structures
+vascular patterns
+organic branching
+pigmentation
+growth
+biological responses
+naturalistic surfaces
+
+×
+
+PHYVERA
+precision biological instrument
+professional scientific information
+specimen inspection
+canon management
+biological intelligence
+
+The interface should NOT resemble:
+
+- generic SaaS
+- generic AI dashboard
+- neon cyberpunk
+- fantasy RPG UI
+- green eco-app
+- excessive glassmorphism
+- mobile game
+- holographic spaceship interface
+
+The governing interaction principle is:
+
+QUIET WHEN STUDIED.
+ALIVE WHEN TOUCHED.
+
+When the user is reading biology, PHYVERA should become calm, precise, dark, highly legible and professional.
+
+When the user interacts with PHYVERA, the interface should briefly feel biologically alive.
+
+==================================================
+CRIXYN CINEMATIC BANNER
+==================================================
+
+A Crixyn animated logo/video asset has been supplied for PHYVERA.
+
+Use this actual supplied asset rather than recreating the animation.
+
+Integrate it into the existing Home hero.
+
+DESKTOP:
+
+The cinematic identity surface should occupy the visual/specimen side of the existing hero.
+
+Do not simply place a rectangular video player on the page.
+
+The video should feel integrated into PHYVERA's surface.
+
+Use masking, controlled gradients, edge treatment, dark blending or similar techniques so the video emerges naturally from the hero.
+
+Preserve the existing hero text and Create Phyvera action.
+
+The animation may play when PHYVERA is opened and then resolve into a calmer identity state.
+
+Avoid an endlessly distracting intro loop.
+
+MOBILE:
+
+Do NOT hide PHYVERA's identity entirely as the existing specimen graphic currently does.
+
+Create a shallower cinematic treatment appropriate to portrait displays.
+
+Crop/reframe rather than shrinking the desktop composition.
+
+PERFORMANCE:
+
+Use:
+- muted
+- playsInline
+- poster frame
+- lazy/controlled loading where appropriate
+- pause when backgrounded/offscreen where feasible
+
+Reduced Motion:
+show the poster/static resolved identity instead of autoplay.
+
+==================================================
+MATERIAL SYSTEM
+==================================================
+
+Replace the current repetitive flat-card appearance with a restrained material hierarchy.
+
+Develop reusable surfaces such as:
+
+INSTRUMENT SURFACE
+Primary application panels.
+Very dark charcoal/obsidian.
+Subtle material depth.
+Extremely restrained edge definition.
+
+BIOLOGICAL SURFACE
+Species/biology-related interactive regions.
+May contain almost imperceptible vascular, cellular or botanical structure.
+
+SPECIMEN SURFACE
+Visual areas containing species imagery or future 3D specimens.
+Deeper visual space.
+Designed explicitly so the internal renderer can later be replaced with a 3D viewer.
+
+CANON SURFACE
+Calm, authoritative, extremely legible.
+Avoid excessive decorative motion.
+
+Do not make every panel visually unique.
+Create a coherent reusable design system.
+
+==================================================
+COLOR
+==================================================
+
+Base:
+near-black
+obsidian
+charcoal
+dark metallic neutrals
+
+Primary living interaction:
+cerulean
+blue-green
+turquoise
+
+Botanical greens should exist but should no longer dominate every primary action.
+
+Use brighter color primarily to communicate:
+interaction
+biological activity
+selection
+generation
+status
+meaning
+
+Do not flood entire surfaces with saturated colors.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Preserve the existing editorial/biological heading direction where appropriate.
+
+Create a clearer hierarchy between:
+
+PHYVERA identity
+species names
+scientific/botanical information
+section headings
+plain-language explanations
+technical biological detail
+metadata
+canon status
+
+Scientific information should feel authoritative without becoming difficult to read.
+
+==================================================
+LIVING FIELD POINTER SYSTEM
+==================================================
+
+DESKTOP/FINE POINTER ONLY.
+
+Do NOT create a gimmicky custom cursor or long glowing cursor trail.
+
+Instead create a subtle environmental response around interactive surfaces.
+
+When the pointer approaches certain interactive elements:
+
+- extremely subtle edge illumination may respond to proximity
+- faint biological/vascular details may respond
+- surface highlights may shift slightly
+- species cards may exhibit tiny dimensional response
+- interactive specimen areas may indicate inspectability
+
+The pointer itself should remain precise.
+
+Effects must be localized.
+
+Never apply pointer-reactive movement to:
+- Biology reading rows
+- Glossary definitions
+- Canon statements
+- long-form text
+- form fields
+- approval/rejection text
+
+Use pointer capability detection:
+hover + fine pointer
+rather than screen width.
+
+==================================================
+BUTTON SYSTEM
+==================================================
+
+Replace generic bright-green rectangular buttons with a reusable PHYVERA control system.
+
+Buttons should feel physical and responsive.
+
+PRIMARY BUTTON REST:
+
+dark dimensional body
+precise outline/edge
+restrained living-energy channel
+excellent label contrast
+
+HOVER:
+
+do not simply change background color.
+
+Allow a restrained cerulean/blue-green energy response to travel or emerge around the boundary.
+
+PRESS:
+
+1. immediate physical compression
+2. energy contracts toward the interaction point
+3. short internal biological pulse
+4. action executes
+5. confirmation/release
+6. return to rest
+
+Target interaction duration:
+fast and responsive, generally around 200–350 ms for the complete tactile response.
+
+Never delay the actual application action just to finish an animation.
+
+Create variants for:
+
+PRIMARY
+SECONDARY
+QUIET
+DESTRUCTIVE
+CANON
+GENERATE
+
+Each should belong to the same family.
+
+==================================================
+SEMANTIC MOTION LANGUAGE
+==================================================
+
+Do not randomly assign animations.
+
+PHYVERA has a semantic motion vocabulary.
+
+LIVING FIELD
+Meaning:
+available biological/interactable surface
+
+Used for:
+pointer proximity
+species cards
+specimen surfaces
+
+BIOLOGICAL SCAN
+Meaning:
+inspect/analyze
+
+Used for:
+species inspection
+future anatomical inspection
+visual-reference examination
+
+VASCULAR PULSE
+Meaning:
+successful information transfer/save
+
+Used for:
+saved biological information
+successful update
+completed non-canon action
+
+CANON IMPRINT
+Meaning:
+information has formally entered established Seedwoken canon
+
+Used ONLY for:
+accepted Canon Sync changes
+formal canon establishment
+
+This animation should feel deliberate and significant, NOT celebratory or game-like.
+
+GERMINATION / BRANCHING
+Meaning:
+new biological entity/variation created
+
+Used for:
+Create Phyvera
+new Veyra
+future genetic branches
+
+ENERGY CONVERGENCE
+Meaning:
+generation/computation
+
+Used for:
+future AI generation
+future Visual Lab image generation
+biological analysis
+
+WITHDRAWAL
+Meaning:
+rejected/removed/not accepted
+
+Used for:
+reject proposal
+remove experimental reference
+
+Avoid giant red flashes.
+Allow illumination to retract/extinguish instead.
+
+==================================================
+CREATE PHYVERA
+==================================================
+
+This should become one of the signature interactions.
+
+The Create Phyvera control should feel important without being enormous.
+
+When activated:
+
+brief biological energy/germination response
+→ creation interface transition
+
+Do not use a generic modal pop animation.
+
+Refine the existing dialog presentation into something consistent with the biological instrument identity.
+
+==================================================
+SPECIES CARDS
+==================================================
+
+Replace CSS-generated species glyphs as the dominant identity.
+
+Cards should be designed for real canonical imagery when available.
+
+Support:
+
+canonical visual
+species name
+botanical ancestry
+canon state
+essential biological metadata
+
+Pointer movement may cause VERY subtle depth response on desktop.
+
+Maximum tilt should remain restrained.
+
+No dramatic 3D card flipping.
+
+Touch:
+short compression + biological pulse.
+
+Cards must remain useful when no canonical image exists.
+
+Create a sophisticated unknown/unresolved specimen treatment rather than a generic placeholder icon.
+
+==================================================
+BIOLOGY WORKSPACE
+==================================================
+
+This is one of the QUIET zones.
+
+Prioritize:
+readability
+hierarchy
+comparison
+biological understanding
+
+Do not animate biological paragraphs.
+
+Do not move rows in response to pointer position.
+
+Interaction effects may exist around controls and the specimen viewer but NOT underneath reading material.
+
+Refactor the existing sticky specimen area into a dedicated:
+
+SpecimenViewport
+
+component or equivalent.
+
+Its internals may currently display existing 2D/reference content.
+
+Architect its boundary so a future interactive 3D renderer can replace its internal content without rebuilding Biology.
+
+==================================================
+LIFECYCLE
+==================================================
+
+Make the lifecycle feel like biological development rather than seven unrelated cards.
+
+Preserve:
+Seed
+Seedling
+Kindling
+Seedform
+Infant
+Mid Stage
+Adult
+
+Create a restrained developmental connection/progression between stages.
+
+Selecting a stage may propagate a short living signal along the developmental path toward that stage.
+
+Do not constantly animate the lifecycle.
+
+Mobile remains horizontally swipeable.
+
+Make selected stage extremely clear.
+
+==================================================
+VEYRA
+==================================================
+
+Veyra should visually communicate variation within ONE species.
+
+Do not make Veyra look like separate species.
+
+Pigmentation previews should become richer.
+
+Creating a Veyra may use the Germination/Branching motion vocabulary.
+
+Preserve the biological relationship:
+
+PHYVERA = SPECIES
+VEYRA = VISIBLE PIGMENTATION PHENOTYPE
+
+==================================================
+CANON SYSTEM
+==================================================
+
+Canon interactions deserve special restraint.
+
+CANON
+PROPOSAL
+UNKNOWN
+SUPERSEDED where applicable
+
+should have a refined shared status language.
+
+Do not simply use generic colored pills.
+
+Canon acceptance:
+
+User activates acceptance.
+→ deliberate short Canon Imprint
+→ state becomes canonical
+→ interface settles
+
+Reject:
+
+use Withdrawal behavior.
+
+Do not gamify canon decisions.
+
+Do not make approval ambiguous.
+
+==================================================
+VISUAL LAB
+==================================================
+
+Refine Visual Lab into a serious specimen/reference workspace.
+
+Clearly distinguish:
+
+CANONICAL
+EXPERIMENTAL
+REJECTED
+PROPOSED
+
+Prepare its visual architecture for future OpenAI image generation.
+
+Do NOT fake image generation.
+
+Any unavailable generation capability remains visibly unavailable/future rather than pretending to operate.
+
+==================================================
+PAGE TRANSITIONS
+==================================================
+
+Introduce a shared transition system.
+
+Navigation should feel continuous, not like unrelated pages appearing.
+
+Transitions should generally be subtle:
+short fade
+small depth change
+localized biological response
+
+Avoid:
+large slides
+long fades
+dramatic zooms
+constant animation
+
+The user should never wait for a transition.
+
+==================================================
+MOBILE / TOUCH
+==================================================
+
+The mobile experience is NOT a reduced desktop experience.
+
+Translate interaction language appropriately.
+
+No hover-dependent functionality.
+
+Use:
+press compression
+touch-origin pulse
+persistent selected states
+swipe where appropriate
+clear confirmation
+
+Increase undersized controls to approximately 44×44 touch targets where possible.
+
+Preserve mobile off-canvas navigation.
+
+Do not create cursor effects on touch devices.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Implement global prefers-reduced-motion behavior.
+
+Reduced motion should:
+
+- disable autoplaying decorative video
+- use banner poster
+- disable cursor tracking
+- disable parallax
+- disable decorative looping
+- eliminate large movement/scaling
+- retain immediate pressed states
+- retain selection
+- retain loading feedback
+- retain success/failure feedback
+- preserve focus indication
+
+Maintain keyboard navigation.
+
+Maintain high text contrast.
+
+Do not sacrifice usability for visual spectacle.
+
+==================================================
+ARCHITECTURAL REFACTOR
+==================================================
+
+Your audit identified that too much interface logic currently lives in one large page component.
+
+Before layering sophisticated motion everywhere, perform the MINIMUM safe refactor needed to establish reusable components.
+
+Prefer reusable systems such as:
+
+AppShell
+Navigation
+HomeHero
+SpeciesCard
+SpecimenViewport
+PhyveraButton
+StatusIndicator
+Modal/Dialog
+LifecycleStage
+Motion primitives/tokens
+
+Names may differ according to the existing architecture.
+
+Create centralized design tokens for:
+
+motion durations
+easing
+surface materials
+borders
+interaction intensity
+focus
+colors
+spacing where appropriate
+
+Do NOT perform a broad application rewrite.
+
+==================================================
+PERFORMANCE
+==================================================
+
+PHYVERA must remain responsive on:
+
+Windows desktop
+Android phone
+Android tablet
+
+Effects should primarily use performant CSS properties where possible.
+
+Avoid large numbers of continuously animated elements.
+
+Avoid expensive pointer calculations across the whole page.
+
+Pointer effects should be local and throttled/requestAnimationFrame controlled where appropriate.
+
+The application should feel faster after the patch, not slower.
+
+==================================================
+QUALITY STANDARD
+==================================================
+
+This is not a superficial color reskin.
+
+The objective is to create a recognizable PHYVERA interaction language.
+
+However:
+
+SPECTACLE MUST COME FROM RESPONSE TO USER ACTION.
+
+Not from constant motion.
+
+At rest:
+dark
+calm
+biological
+professional
+precise
+
+During interaction:
+responsive
+living
+dimensional
+distinctive
+Seedwoken
+
+==================================================
+IMPLEMENTATION
+==================================================
+
+Proceed autonomously.
+
+Use the existing Site and database.
+
+Apply the patch systematically.
+
+Do not stop for routine aesthetic decisions.
+
+Do not invent Seedwoken canon.
+
+Do not implement future 3D or AI generation during this patch.
+
+After implementation, test:
+
+desktop layout
+mobile layout
+tablet/responsive behavior
+navigation
+every primary button
+dialogs
+species cards
+Biology
+Lifecycle
+Veyra
+Visual Lab
+Glossary
+Canon Sync
+pointer behavior
+touch equivalents
+keyboard interaction
+reduced-motion behavior
+video/banner fallback
+persistence
+existing biological data
+existing canon state
+
+Verify no working Milestone 1 functionality was lost.
+
+Then deploy/update the EXISTING private PHYVERA Site.
+
+Return:
+
+1. concise description of what changed
+2. any implementation compromises
+3. any remaining placeholders
+4. performance/accessibility findings
+5. confirmation that existing data/canon survived
+6. confirmation that the existing PHYVERA Site—not a replacement—was updated

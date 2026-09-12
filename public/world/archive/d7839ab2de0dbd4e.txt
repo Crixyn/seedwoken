@@ -1,0 +1,1174 @@
+Continue development of the EXISTING private PHYVERA Site.
+
+CURRENT BASELINE:
+PHYVERA Version 2 — Visual & Interaction System v1
+
+Do not create another Site.
+Do not fork PHYVERA.
+Do not rebuild the application.
+Do not replace its database.
+Do not discard working architecture.
+Do not invent Seedwoken canon.
+
+This milestone becomes:
+
+PHYVERA VERSION 3
+Adaptive Foundation + Seedwoken Knowledge Integration + Intelligence v1 + Visual Lab Foundation
+
+There are FOUR sequential objectives:
+
+A. RESPONSIVE / ADAPTIVE INTERFACE CERTIFICATION
+B. EXISTING SEEDWOKEN KNOWLEDGE INTEGRATION
+C. PHYVERA INTELLIGENCE v1
+D. VISUAL LAB + GALLERY SYSTEM v1
+
+Complete and verify them in that order.
+
+==================================================
+A — RESPONSIVE / ADAPTIVE INTERFACE CERTIFICATION
+==================================================
+
+Version 2 has a confirmed viewport defect.
+
+On a tall secondary desktop monitor in a dual-monitor configuration, when the browser was not maximized, part of PHYVERA's RIGHT SIDE was cut off.
+
+Maximizing the browser fixed the visible area.
+
+This is unacceptable.
+
+PHYVERA must respond to the AVAILABLE BROWSER VIEWPORT, not assumptions about device category or physical monitor resolution.
+
+It must work correctly in:
+
+narrow desktop windows
+half-screen desktop windows
+portrait/tall desktop displays
+ultrawide displays
+16:9 displays
+laptops
+tablets landscape
+tablets portrait
+large phones
+small phones
+reasonable browser zoom levels
+windows moved between displays
+
+Do NOT solve this by hiding overflow.
+
+Find and fix the underlying layout constraints.
+
+AUDIT:
+
+fixed widths
+260px sidebar assumptions
+100vw conflicts
+min-width
+grid minimums
+flex children that cannot shrink
+nowrap
+absolute positioning
+transforms
+cinematic media dimensions
+sticky specimen panel
+dialogs
+tabs
+button groups
+Visual Lab
+Canon Sync
+Glossary
+pointer-effect layers
+padding + width calculations
+box sizing
+
+The application shell must never require horizontal scrolling.
+
+Local horizontal scrolling is acceptable for appropriate structures such as lifecycle tracks, tabs and reference strips.
+
+ADAPTIVE NAVIGATION:
+
+If the available width becomes insufficient, desktop navigation should be capable of becoming compact/collapsible/off-canvas even when a mouse is present.
+
+Respond to SPACE rather than assuming:
+
+desktop = wide
+mobile = narrow.
+
+Use modern responsive principles where appropriate:
+
+CSS Grid
+Flexbox
+minmax()
+clamp()
+min-width: 0
+flex-wrap
+container queries / container-aware components
+intrinsic sizing
+
+Avoid excessive arbitrary breakpoint patches.
+
+BIOLOGY:
+
+Wide:
+SpecimenViewport + records.
+
+Constrained:
+reduce intelligently.
+
+Narrow:
+stack.
+
+The SpecimenViewport must never force horizontal overflow.
+
+CINEMATIC:
+
+The supplied Crixyn identity video must crop/reframe fluidly without controlling page width.
+
+DIALOGS:
+
+Every dialog must remain within the actual viewport.
+
+CERTIFY AT MINIMUM:
+
+320×568
+360×800
+390×844
+412×915
+600×960
+768×1024
+820×1180
+1024×768
+1280×720
+1366×768
+1440×900
+1536×864
+1920×1080
+700×900
+800×1000
+900×1200
+1000×700
+1100×900
+1200×1600
+2560×1080
+
+Also continuously resize between dimensions.
+
+Verify:
+no right clipping
+no shell overflow
+navigation reachable
+cinematic contained
+cards reflow
+Biology readable
+Lifecycle usable
+Veyra usable
+Visual Lab usable
+Glossary readable
+Canon Sync usable
+dialogs contained
+buttons reachable
+motion layers contained
+
+Do not proceed until this is fixed.
+
+==================================================
+B — EXISTING SEEDWOKEN KNOWLEDGE INTEGRATION
+==================================================
+
+PHYVERA must NOT begin its intelligence as though Seedwoken is a new project.
+
+A substantial Seedwoken universe already exists.
+
+The current ChatGPT Project may contain:
+
+- Seedwoken Codex material
+- uploaded canonical documents
+- project instructions
+- previous Seedwoken conversations
+- saved Project sources
+- accepted species descriptions
+- lifecycle decisions
+- terminology
+- world biology
+- ecology
+- visual references
+- generated species images
+- Rosavyn development
+- Tomavyn development
+- Vaelora worldbuilding
+- geography
+- historical design decisions
+
+Before creating new Seedwoken knowledge:
+
+INSPECT THE AVAILABLE PROJECT SOURCES AND PROJECT CONTEXT.
+
+Identify what existing Seedwoken material is actually accessible.
+
+Do not assume inaccessible conversations/files were read.
+
+Produce an internal ingestion inventory identifying:
+
+AVAILABLE
+NOT AVAILABLE
+DUPLICATE
+POTENTIALLY OUTDATED
+CONFLICTING
+
+information.
+
+==================================================
+SOURCE HIERARCHY
+==================================================
+
+PHYVERA needs provenance.
+
+Do not flatten everything into one giant lore document.
+
+Create a structured KnowledgeSource concept.
+
+Sources may include:
+
+CODEX
+PROJECT SOURCE
+ESTABLISHED CHAT DECISION
+PHYVERA CANON RECORD
+APPROVED VISUAL REFERENCE
+BIOLOGICAL RESEARCH
+AI PROPOSAL
+USER ENTRY
+
+Each imported meaningful record should be capable of retaining:
+
+source type
+source identity/reference where possible
+date/version where known
+canon status
+species/entity association
+superseded status
+notes
+
+Do not fabricate provenance when unavailable.
+
+==================================================
+CODEX INTEGRATION
+==================================================
+
+The Seedwoken Codex remains the broad canonical world archive.
+
+PHYVERA remains its specialized biological companion.
+
+DO NOT merge them into one product.
+
+Instead build a Codex knowledge bridge.
+
+Relevant Codex information should be mapped into structured PHYVERA knowledge such as:
+
+terminology
+species
+planet/world biology
+ecology
+developmental rules
+known biological constraints
+canonical visual descriptions
+geographic/environmental relationships
+
+PHYVERA should be able to reference Codex-derived knowledge while preserving where it came from.
+
+If a Codex statement is broader world lore and not biological, PHYVERA may reference it without unnecessarily duplicating it into species records.
+
+==================================================
+EXISTING CONVERSATION INTEGRATION
+==================================================
+
+Use accessible Project conversation/context information to identify established Seedwoken decisions.
+
+CRITICAL:
+
+A conversation containing an idea does NOT automatically make that idea canon.
+
+Classify extracted information as appropriate:
+
+CANON
+SUPPORTED / ESTABLISHED
+PROPOSAL
+EXPERIMENTAL
+SUPERSEDED
+UNKNOWN
+
+If status cannot be safely determined:
+send it to REVIEW.
+
+Do not silently promote brainstorms.
+
+==================================================
+KNOWLEDGE INGESTION / SYNC
+==================================================
+
+Because the deployed Site may not have direct live access to every Project conversation/source, create a REALISTIC controlled synchronization workflow.
+
+Preferred model:
+
+PROJECT / CODEX MATERIAL
+→ EXTRACTION
+→ STRUCTURED UPDATE PACKAGE
+→ PHYVERA IMPORT
+→ DUPLICATE / CONFLICT CHECK
+→ REVIEW
+→ APPLY
+→ KNOWLEDGE STORE
+
+Call this something appropriate such as:
+
+KNOWLEDGE SYNC
+CODEX SYNC
+SEEDWOKEN SYNC
+
+Do not claim automatic live Project synchronization if the platform cannot provide it.
+
+Design an adapter so improved integration can replace the manual/semi-automatic bridge later.
+
+==================================================
+SYNC INTERFACE
+==================================================
+
+Create a clean internal management area.
+
+It should show concepts such as:
+
+NEW KNOWLEDGE
+MATCHED EXISTING
+CONFLICT
+SUPERSEDES
+NEEDS REVIEW
+READY TO APPLY
+
+The user should be able to understand:
+
+WHAT changed
+WHERE it came from
+WHAT it affects
+WHETHER it is canon
+WHAT existing information it conflicts with
+
+Provide actions such as:
+
+REVIEW
+APPLY
+REJECT
+MERGE
+MARK SUPERSEDED
+
+Only where logically appropriate.
+
+Never automatically overwrite established canon because newer text exists.
+
+==================================================
+TERMINOLOGY
+==================================================
+
+Integrate established Seedwoken terminology.
+
+Examples of known concepts include:
+
+Vaelora
+Phyvera
+Veyra
+Kindling
+Seedform
+
+Use available canonical Project/Codex sources for their actual definitions.
+
+Do not expand their meanings simply because additional detail seems useful.
+
+Clickable terminology should remain available throughout PHYVERA.
+
+==================================================
+SPECIES INGESTION
+==================================================
+
+Rosavyn and Tomavyn must no longer remain merely shallow demonstration records if richer established material exists in accessible Project/Codex sources.
+
+Extract and structure supported existing information.
+
+Preserve distinctions such as:
+
+species-wide biology
+developmental stage
+sex
+Veyra
+anatomical feature
+ecology
+visual canon
+proposal
+superseded design
+
+Do not invent missing fields to make records appear complete.
+
+UNKNOWN is valid.
+
+==================================================
+C — PHYVERA INTELLIGENCE v1
+==================================================
+
+PHYVERA now begins becoming a specialized:
+
+SEEDWOKEN BIOLOGICAL INTELLIGENCE.
+
+It is NOT a generic chatbot with Seedwoken branding.
+
+AI should exist contextually throughout the specialized application.
+
+The operator is not a horticultural professional.
+
+PHYVERA should reason at a professional biological level while explaining information in understandable everyday language.
+
+CORE REASONING PRIORITY:
+
+1. Established Seedwoken canon
+2. Established species biology
+3. Codex knowledge
+4. Approved visual canon
+5. Real-world biological evidence
+6. Seedwoken design principles
+7. Supported biological inference
+8. Plausible proposal
+9. Fantasy extrapolation
+
+Never override higher-level knowledge silently.
+
+==================================================
+INTELLIGENCE CONTEXT ENGINE
+==================================================
+
+Do not hardcode giant prompts throughout components.
+
+Create a centralized context-building architecture.
+
+When PHYVERA intelligence is invoked, construct relevant context from:
+
+current species
+current lifecycle stage
+sex where applicable
+current Veyra
+selected anatomical system
+species biology
+Codex-derived knowledge
+Canon records
+approved visual references
+known constraints
+prohibited traits
+relevant ecology
+current UI task
+source provenance
+
+Context should be selective.
+
+Do not send the entire Seedwoken universe for every small question.
+
+==================================================
+PLAIN LANGUAGE → PROFESSIONAL BIOLOGY
+==================================================
+
+The user may say:
+
+"I want the male greener."
+
+PHYVERA should understand possible implications involving:
+
+pigmentation
+chlorophyll-bearing tissue
+tissue distribution
+photosynthetic surface
+sexual dimorphism
+development
+
+while explaining the result simply.
+
+User:
+
+"I want it to survive colder places."
+
+PHYVERA should reason through biological adaptations instead of simply attaching a "cold resistant" tag.
+
+PHYVERA does the professional biological thinking.
+
+The interface communicates it accessibly.
+
+==================================================
+CONTEXTUAL AI
+==================================================
+
+Potential contextual actions:
+
+ANALYZE BIOLOGY
+EXPLAIN SIMPLY
+CHECK PLAUSIBILITY
+SUGGEST ADAPTATION
+IDENTIFY CONFLICT
+COMPARE WITH ANCESTRAL PLANT
+CHECK CANON
+PROPOSE CHANGE
+
+Do not clutter the UI.
+
+Provide these actions where relevant.
+
+An optional PHYVERA intelligence drawer may exist.
+
+It must know the current context automatically.
+
+If opened from:
+
+Tomavyn
+→ Adult
+→ Male
+→ Biology
+
+the user should not have to explain that context again.
+
+Useful AI results may become:
+
+ADD BIOLOGY NOTE
+PROPOSE STRUCTURED CHANGE
+SEND TO CANON REVIEW
+
+Never directly accept themselves into canon.
+
+==================================================
+REAL-WORLD BIOLOGY
+==================================================
+
+PHYVERA should distinguish:
+
+REAL ANCESTRAL BIOLOGY
+
+from
+
+SEEDWOKEN ADAPTATION.
+
+Example:
+
+A real plant biological feature can inform a Phyvera trait.
+
+But PHYVERA must clearly understand when the humanoid/intelligent adaptation is extrapolated rather than real botany.
+
+==================================================
+OPENAI INTEGRATION
+==================================================
+
+Investigate the actual secure model capabilities available to this Site environment.
+
+Never expose API keys or secrets client-side.
+
+If secure OpenAI reasoning is supported:
+implement a REAL minimal vertical slice.
+
+If not:
+implement:
+
+AIProvider abstraction
+ContextBuilder
+structured request/response contracts
+UI states
+failure handling
+
+and report the blocker.
+
+DO NOT FAKE AI.
+
+PHYVERA must remain completely usable if AI is unavailable.
+
+==================================================
+D — VISUAL LAB + GALLERY SYSTEM v1
+==================================================
+
+This area requires substantial attention.
+
+PHYVERA's Gallery should eventually become one of the most detailed and useful visual archives in Seedwoken development.
+
+Do NOT build a generic photo grid.
+
+Build a biological visual-reference system.
+
+==================================================
+GALLERY INFORMATION MODEL
+==================================================
+
+Every visual should be capable of being associated with structured metadata such as:
+
+Species
+Lifecycle Stage
+Sex
+Veyra
+View
+Reference Type
+Canon Status
+Generation / Version
+Date
+Source
+Related Biological Features
+Notes
+Superseded By
+Parent Generation / Derivation where known
+
+Do not require every property when it does not apply.
+
+==================================================
+VISUAL STATUS
+==================================================
+
+Clearly distinguish:
+
+CANONICAL
+APPROVED REFERENCE
+EXPERIMENTAL
+PROPOSED
+REJECTED
+SUPERSEDED
+
+Rejected images may remain useful historically.
+
+Do not delete them automatically.
+
+PHYVERA should remember WHY something was rejected when that information exists.
+
+This becomes valuable for preventing repeated visual-generation mistakes.
+
+==================================================
+GALLERY EXPERIENCE
+==================================================
+
+DESKTOP:
+
+Allow a detailed visual browsing experience.
+
+Potential useful modes:
+
+GRID
+DETAIL
+COMPARE
+
+Do not create modes merely for complexity.
+
+GRID:
+
+High-quality thumbnails
+clear species identity
+stage
+sex
+Veyra
+canon status
+
+DETAIL:
+
+Large image presentation
+structured biological metadata
+associated canon
+visual requirements
+known issues
+generation lineage/history
+related images
+
+COMPARE:
+
+Allow two or more appropriate references to be inspected together.
+
+Useful comparisons include:
+
+Male ↔ Female
+Infant ↔ Mid Stage ↔ Adult
+Veyra ↔ Veyra
+Front ↔ Side ↔ Back
+Old Reference ↔ Revised Reference
+Experimental ↔ Canonical
+
+Comparison should help detect biological/visual drift.
+
+==================================================
+FILTERING
+==================================================
+
+Provide useful filters such as:
+
+Species
+Stage
+Sex
+Veyra
+Canon Status
+View
+Reference Type
+
+Do not make filtering cumbersome.
+
+The gallery should remain useful with dozens, hundreds and eventually thousands of references.
+
+==================================================
+VISUAL LINEAGE
+==================================================
+
+Prepare for generation lineage.
+
+Example:
+
+Generation 001
+→ revision
+→ revision
+→ approved canonical reference
+
+A visual should be capable of identifying:
+
+derived from
+replaces
+supersedes
+related references
+
+Do not require a complex node graph in v1 unless genuinely useful.
+
+Build the data relationship first.
+
+==================================================
+CANONICAL REFERENCE SETS
+==================================================
+
+A species should eventually be able to maintain an authoritative reference set.
+
+Example:
+
+ADULT MALE
+Front
+Back
+Side
+3/4
+
+ADULT FEMALE
+Front
+Back
+Side
+3/4
+
+MID STAGE
+...
+
+VEYRA
+...
+
+The interface should make missing reference angles/stages obvious without implying that missing material is a problem.
+
+This becomes the source material for future generation consistency and 3D work.
+
+==================================================
+VISUAL SPECIFICATION ENGINE
+==================================================
+
+Create a structured VisualSpecification model.
+
+It may contain:
+
+species identity
+botanical ancestry
+canonical anatomy
+tissue distribution
+structural materials
+leaf morphology
+flower/reproductive morphology
+defensive structures
+stage
+sex
+dimorphism
+Veyra
+size
+proportions
+required traits
+preferred traits
+prohibited traits
+known generation failures
+view
+presentation type
+environment
+approved references
+
+Do NOT reduce this internally to one uncontrolled prose prompt.
+
+The provider layer may compile the structure into whatever request the generation model needs.
+
+==================================================
+OPENAI IMAGE GENERATION
+==================================================
+
+Investigate the REAL supported secure image-generation path.
+
+If supported:
+
+Implement a minimal true generation workflow.
+
+Species
+→ Stage
+→ Sex
+→ Veyra
+→ View
+→ Reference Type
+→ Build VisualSpecification
+→ Generate
+→ Receive Image
+→ Store as EXPERIMENTAL
+→ Review
+→ Approve / Reject
+
+Generated images are NEVER automatically canon.
+
+If generation cannot be securely connected:
+
+DO NOT FAKE IT.
+
+Build the real VisualSpecification and provider boundary.
+
+Report the blocker.
+
+==================================================
+VISUAL GENERATION CONSTRAINTS
+==================================================
+
+Support structured:
+
+REQUIRED
+PREFERRED
+PROHIBITED
+
+visual traits.
+
+This is critical for generation consistency.
+
+Approved visual references should eventually inform new generations.
+
+Rejected references and rejection reasons should eventually help prevent repeated errors.
+
+==================================================
+VISUAL REVIEW
+==================================================
+
+Prepare for a visual review process.
+
+A generated result may be evaluated against:
+
+species biology
+stage
+sex
+Veyra
+canonical anatomy
+required traits
+prohibited traits
+approved references
+
+Do not claim automatic visual analysis exists unless the actual model/integration supports it.
+
+==================================================
+FUTURE 3D
+==================================================
+
+The gallery and SpecimenViewport must remain compatible with future:
+
+3D models
+rotatable specimens
+anatomical hotspots
+geometry-linked biological information
+developmental comparison
+
+Do not implement full procedural 3D now.
+
+But do not architect the gallery around image-only assumptions that would make 3D difficult later.
+
+==================================================
+ENGINEERING / INFRASTRUCTURE STANDARD
+==================================================
+
+Use mature, widely adopted, well-maintained technologies appropriate to the existing PHYVERA architecture.
+
+DO NOT rewrite working architecture merely to chase fashionable tools.
+
+First inspect the current stack.
+
+If the existing React/TypeScript architecture is sound, retain it and improve its organization.
+
+Prefer established engineering patterns over custom cleverness.
+
+Where compatible and genuinely useful, favor:
+
+TypeScript
+React
+modern CSS
+CSS Grid/Flexbox
+container queries
+semantic HTML
+accessible component patterns
+schema validation
+structured relational/data modeling
+server-side API boundaries
+secure secret management
+modular provider adapters
+automated testing
+
+For runtime validation, use a mature schema-validation approach appropriate to the existing stack.
+
+For testing, use established tools compatible with the current build rather than creating a proprietary test system.
+
+For large visual collections, design for:
+
+lazy loading
+thumbnail derivatives
+pagination or virtualization
+metadata indexing
+efficient queries
+image dimension preservation
+responsive images
+appropriate caching
+
+Do not load hundreds of full-resolution images simultaneously.
+
+==================================================
+CODE QUALITY
+==================================================
+
+Refactor only where needed.
+
+Break oversized components into coherent domains.
+
+Likely domains include:
+
+AppShell
+Navigation
+Species
+Biology
+Lifecycle
+Veyra
+Gallery
+VisualLab
+Canon
+KnowledgeSync
+Intelligence
+Providers
+
+Do not create abstraction for abstraction's sake.
+
+Separate:
+
+UI
+domain models
+storage/data access
+AI providers
+image providers
+context construction
+canon logic
+
+Canon rules should not live inside random presentation components.
+
+==================================================
+DATA MODEL
+==================================================
+
+Extend the existing database carefully.
+
+Prefer migrations.
+
+Never destroy existing data.
+
+New structures may be required for:
+
+KnowledgeSource
+KnowledgeRecord
+KnowledgeImport
+Conflict/Review
+VisualAsset
+VisualMetadata
+VisualRelationship
+VisualSpecification
+GenerationRecord
+AIProposal
+
+Exact schema names may differ.
+
+Maintain referential integrity.
+
+==================================================
+SEARCH
+==================================================
+
+Prepare PHYVERA for unified search across:
+
+species
+terminology
+biology
+lifecycle
+Veyra
+visual references
+Codex-derived knowledge
+Canon
+eventually ecology
+
+Search results should identify what TYPE of thing was found.
+
+Do not mix every result into an unexplained list.
+
+==================================================
+PERFORMANCE
+==================================================
+
+PHYVERA should remain fast as the archive grows.
+
+Avoid:
+massive client-side data dumps
+loading every visual at startup
+unbounded DOM lists
+constant global pointer calculations
+giant AI context payloads
+
+Load what is relevant.
+
+==================================================
+PRIVACY
+==================================================
+
+PHYVERA remains PRIVATE.
+
+No public gallery.
+No public species submissions.
+No community features.
+No public API unless explicitly approved later.
+
+==================================================
+SOURCE OF TRUTH / CANON SAFETY
+==================================================
+
+This is mandatory.
+
+Existing information must never be silently replaced because:
+
+a newer chat said something different
+AI generated a more plausible explanation
+real-world biology conflicts with intentional fantasy
+an image generation produced something visually attractive
+
+Conflict must become visible.
+
+Human decision remains authoritative.
+
+==================================================
+VERSIONING
+==================================================
+
+Preserve Version 2 before deployment.
+
+Successful completion becomes:
+
+PHYVERA VERSION 3
+Adaptive Foundation + Seedwoken Intelligence + Visual Archive
+
+==================================================
+CERTIFICATION
+==================================================
+
+RESPONSIVE:
+
+Test all previously specified viewport dimensions.
+
+Confirm:
+zero shell-level horizontal clipping
+zero right-side loss
+narrow desktop works
+portrait desktop works
+mobile works
+tablet works
+ultrawide works
+cinematic contained
+dialogs contained
+SpecimenViewport adapts
+
+KNOWLEDGE:
+
+Confirm:
+available Project/Codex material was inventoried
+sources retain provenance
+duplicates detected
+conflicts surfaced
+unknown information remains unknown
+brainstorms are not automatically canon
+Rosavyn/Tomavyn enriched only from supported material
+Codex remains separate from PHYVERA
+
+GALLERY:
+
+Confirm:
+metadata works
+filters work
+detail view works
+comparison works
+statuses work
+visual relationships persist
+large-library architecture is efficient
+canonical references are distinguishable
+rejected/superseded references remain traceable
+
+INTELLIGENCE:
+
+Confirm:
+context is species-aware
+stage-aware where appropriate
+canon-aware
+source-aware
+plain-language explanations work if live AI is available
+AI cannot self-approve canon
+failure does not break normal PHYVERA operation
+
+IMAGE GENERATION:
+
+Confirm:
+VisualSpecification is structured
+provider boundary exists
+generated assets begin Experimental
+canon approval remains human-controlled
+no fake generation
+
+SECURITY:
+
+Confirm:
+no client secrets
+no exposed API credentials
+owner-only Site access preserved
+existing database survived migrations
+
+==================================================
+FINAL REPORT
+==================================================
+
+Return:
+
+1. Root cause of Version 2 responsive defect
+2. Responsive changes
+3. Viewports certified
+4. Existing stack retained/changed and WHY
+5. Project/Codex sources actually accessible
+6. Seedwoken knowledge imported
+7. Conflicts/duplicates discovered
+8. Knowledge Sync architecture
+9. Rosavyn/Tomavyn enrichment results
+10. Intelligence architecture
+11. AI capabilities actually LIVE
+12. OpenAI reasoning connection status
+13. Gallery architecture
+14. Number/types of visual references imported
+15. VisualSpecification architecture
+16. OpenAI image-generation status
+17. Performance work
+18. Security findings
+19. Existing canon/data preservation
+20. Version deployed
+21. Genuine remaining blockers requiring user action
+
+Proceed autonomously.
+
+Do not stop for routine engineering decisions.
+
+Do not repeatedly request approval.
+
+Only stop if an action genuinely requires user authentication, access, a missing source file, or an irreversible decision that cannot safely be inferred.
+
+Update the EXISTING private PHYVERA Site.

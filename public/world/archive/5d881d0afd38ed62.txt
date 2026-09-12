@@ -1,0 +1,534 @@
+PROJECT: PHYVERA
+Seedwoken Biological Intelligence & Species Design System
+
+MISSION
+
+Build the first working version of PHYVERA, a private application used exclusively for development of the Seedwoken universe.
+
+PHYVERA is NOT:
+- a generic fantasy creature generator
+- a chatbot with a decorative interface
+- a horticulture encyclopedia
+- a public social application
+- a generic character creator
+
+PHYVERA is a specialized Seedwoken biological design intelligence.
+
+It should eventually understand Seedwoken biology, terminology, species, ecology, visual canon, genetics, lifecycle rules, worldbuilding principles, and approved creative decisions well enough to assist in designing biologically coherent Phyvera.
+
+IMPORTANT USER EXPERIENCE
+
+The person operating PHYVERA is not a professional botanist.
+
+The AI should be capable of professional-level biological reasoning while communicating primarily in understandable everyday language.
+
+Use technical botanical terminology where useful, but explain it simply.
+
+Example:
+
+Instead of requiring:
+"Define anthocyanin distribution across epidermal tissue"
+
+Present:
+"Where does this pigmentation appear?"
+
+Then allow understandable choices and let the biological system interpret those choices professionally.
+
+SEEDWOKEN FOUNDATION
+
+PHYVERA = working application name.
+
+Phyvera = an awakened plant-derived species of Seedwoken.
+
+Veyra = a visible pigmentation phenotype within a Phyvera. A Veyra is NOT a separate species.
+
+Vaelora = the living planet.
+
+The Kindling = the one-time biological awakening event.
+
+Seedform = a rooted protective developmental stage.
+
+Baseline lifecycle:
+
+Seed
+→ Seedling
+→ Kindling
+→ Seedform
+→ Infant
+→ Mid Stage
+→ Adult
+
+Seedwoken visual philosophy:
+
+Naturalistic Biological Fantasy
+approximately 70% biological realism / 30% fantasy.
+
+Biology should normally provide the explanation for fantastical anatomy rather than fantasy simply overriding biology.
+
+Do NOT invent additional Seedwoken canon merely to fill missing information.
+
+Unknown information should remain unknown, proposed, or experimental until accepted.
+
+CORE PRINCIPLE
+
+PHYVERA should become a living biological companion to the Seedwoken Codex.
+
+The Codex and PHYVERA are separate entities.
+
+The Codex records the broader world and canon.
+
+PHYVERA specializes in biological species development, biological intelligence, genetics, lifecycle, ecology, visual references, and biological canon.
+
+APPLICATION STRUCTURE
+
+Create a clean app with approximately these primary areas:
+
+1. HOME
+
+Elegant entry point.
+
+Show:
+- PHYVERA identity
+- recent species
+- recent biological changes
+- pending canon updates
+- quick "Create Phyvera"
+- global Seedwoken search
+
+Avoid dashboard clutter.
+
+2. PHYVERA LIBRARY
+
+Visual library of established species.
+
+Each species card should clearly identify:
+- species name
+- botanical ancestry
+- current canonical visual if available
+- lifecycle completion
+- known Veyra
+- canon status
+
+Initial known species include:
+
+Rosavyn — rose-derived Phyvera
+Tomavyn — tomato-derived Phyvera
+
+Do NOT invent missing canon for either species.
+
+3. CREATE
+
+Support:
+
+DERIVE FROM REAL PLANT
+
+DESIGN MANUALLY
+
+The real-plant workflow should allow an ordinary plant name such as:
+
+Tomato
+
+The biological intelligence should be designed to establish a professional botanical foundation and then translate that biology into Seedwoken-compatible design possibilities.
+
+Eventually this should support AI-assisted biological research/reasoning.
+
+4. BIOLOGY
+
+This should become the central workspace.
+
+Organize information into understandable sections such as:
+
+Body Structure
+Plant Ancestry
+Tissues
+Leaves
+Roots
+Flowers
+Reproduction
+Photosynthesis
+Water/Nutrient Transport
+Energy Storage
+Defenses
+Sensory Biology
+Movement
+Growth
+Size
+Sexual Differences
+Unique Adaptations
+Biological Limitations
+
+Use plain-language labels first.
+
+Technical terminology may appear as secondary information.
+
+Include "Explain Simply" behavior wherever appropriate.
+
+Design the data model with future clickable anatomical regions in mind.
+
+5. LIFECYCLE
+
+Represent:
+
+Seed
+Seedling
+Kindling
+Seedform
+Infant
+Mid Stage
+Adult
+
+visually rather than as a giant text document.
+
+Each stage can contain:
+- biological changes
+- anatomy
+- size
+- capabilities
+- vulnerabilities
+- visual references
+- sex differences where relevant
+- notes
+
+6. VEYRA
+
+Manage pigmentation phenotypes belonging to the species.
+
+Each Veyra can eventually contain:
+- name
+- pigmentation
+- biological mechanism
+- inheritance information
+- prevalence
+- environmental effects
+- visual references
+
+Make the relationship visually obvious:
+
+PHYVERA = SPECIES
+VEYRA = PHENOTYPE
+
+7. VISUAL LAB
+
+Create the interface and data architecture now.
+
+Do not fake image generation if direct image-generation integration is not yet available.
+
+Design for eventual AI image generation using the complete canonical biological specification.
+
+Visual Lab should eventually support:
+
+Lifecycle stage
+Sex
+Veyra
+View angle
+Reference style
+Environment
+Generation history
+
+Actions:
+
+GENERATE
+REGENERATE
+REVISE
+COMPARE
+APPROVE AS CANON
+REJECT
+
+Approved visual references must be distinguishable from experiments.
+
+Design the image-generation provider as a replaceable module so the application is not permanently tied to one model/provider.
+
+8. ECOLOGY
+
+Provide a future-ready biological/ecological workspace covering:
+
+habitat
+climate
+water
+soil/substrate
+seasonality
+resources
+pollination
+reproduction
+predation
+competition
+symbiosis
+ecological role
+environmental pressures
+
+Eventually PHYVERA should be capable of evaluating whether a species makes biological sense within a particular Vaeloran environment.
+
+9. GLOSSARY
+
+Create a highly visible searchable Seedwoken terminology system.
+
+Terms should be clickable throughout PHYVERA.
+
+Opening a term should provide:
+
+Simple Explanation
+Technical/Canonical Meaning
+Related Concepts
+Related Species
+
+This exists partly to prevent terminology from becoming difficult to remember as Seedwoken expands.
+
+10. CANON SYNC
+
+This is critical.
+
+PHYVERA must NOT silently modify established canon because an AI inferred something.
+
+Design a canon-change workflow:
+
+PROPOSED
+→ REVIEWED
+→ ACCEPTED / REJECTED
+→ CANON
+
+Existing canon may later become:
+
+SUPERSEDED
+
+Create a Canon Update Queue.
+
+Example:
+
+"Adult male Tomavyn exhibit greater green-tissue dominance than adult females."
+
+The user should be able to:
+
+APPLY
+REVIEW
+REJECT
+
+Maintain change history.
+
+This architecture should eventually make it possible for discoveries from Seedwoken development conversations to be submitted to PHYVERA for review.
+
+AI BEHAVIOR
+
+Design PHYVERA's future AI around a specialized Seedwoken system context.
+
+It should reason in this order:
+
+1. Established Seedwoken canon
+2. Established species biology
+3. Real-world biological evidence
+4. Existing visual references
+5. Seedwoken biological design principles
+6. Plausible extrapolation
+7. Fantasy invention
+
+It must distinguish between:
+
+CANON
+SUPPORTED INFERENCE
+PLAUSIBLE PROPOSAL
+EXPERIMENTAL IDEA
+UNKNOWN
+
+Never present inference as established canon.
+
+VISUAL CANON
+
+Visual generations must eventually derive their instructions from structured species data rather than relying entirely on manually written prompts.
+
+The long-term objective is:
+
+Species Biology
+→ Canonical Visual Specification
+→ Image Generation
+→ Biological/Canon Evaluation
+→ Human Approval
+→ Canon Reference
+
+This is intended to reduce visual drift between generations.
+
+FUTURE 3D SYSTEM
+
+Do NOT attempt full procedural 3D creature generation in this milestone.
+
+Architect the biological model so a future interactive anatomical viewer can use it.
+
+Long-term experience:
+
+mouse drag / finger drag = rotate creature
+
+click/tap anatomical structure = identify structure
+
+Example:
+
+Click a Rosavyn prickle.
+
+PHYVERA displays:
+
+Retractable Prickle
+
+Simple:
+A controllable defensive thorn-like structure.
+
+Biology:
+More detailed biological explanation.
+
+Canon:
+Relevant accepted Seedwoken information.
+
+Future 3D support should therefore influence data architecture but NOT expand current scope.
+
+DATA / PERSISTENCE
+
+PHYVERA must preserve structured information rather than storing species as giant prose documents.
+
+Use a modular species schema.
+
+The system should be designed for synchronization between devices later.
+
+Do not require me to operate databases manually.
+
+Do not require horticultural knowledge.
+
+Do not expose unnecessary developer complexity in the normal interface.
+
+PRIVACY
+
+PHYVERA is private.
+
+It is intended only for internal Seedwoken development.
+
+Do not add:
+- public profiles
+- community galleries
+- social sharing
+- public species submissions
+- multiplayer
+- unnecessary user-account systems
+
+MOBILE + DESKTOP
+
+Design responsively from the beginning.
+
+Primary targets:
+
+Windows desktop
+Android phone
+Android tablet
+
+Desktop should support mouse interaction.
+
+Mobile/tablet should support touch interaction.
+
+Design toward eventual installable app/PWA behavior.
+
+VISUAL IDENTITY
+
+PHYVERA should feel native to Seedwoken.
+
+Naturalistic.
+Botanical.
+Scientific.
+Living.
+Elegant.
+Dark but not generic sci-fi.
+
+Use:
+- deep charcoal/near-black
+- subtle plant-derived surfaces/patterns
+- restrained living greens
+- biological accent colors when meaningful
+- clean typography
+- high-quality species imagery where available
+
+Avoid:
+- neon cyberpunk
+- excessive glassmorphism
+- generic AI gradients
+- generic fantasy parchment
+- excessive glowing
+- cluttered analytics dashboards
+
+It should feel like a sophisticated biological instrument created specifically for studying life on Vaelora.
+
+IMPORTANT DEVELOPMENT RULES
+
+Work autonomously.
+
+Do not repeatedly stop for routine design or implementation decisions.
+
+Make reasonable professional decisions yourself.
+
+Do not expand the milestone unnecessarily.
+
+Do not create fake functionality and present it as operational.
+
+Clearly distinguish:
+WORKING
+PROTOTYPE
+PLACEHOLDER
+FUTURE
+
+Do not fabricate Seedwoken canon.
+
+Build reusable architecture rather than hardcoding Rosavyn and Tomavyn into the interface.
+
+MILESTONE 1
+
+Build the strongest functional vertical slice possible containing:
+
+PHYVERA Home
+Phyvera Library
+Create Phyvera
+Species Workspace
+Biology
+Lifecycle
+Veyra
+Visual References
+Glossary
+Canon Update Queue
+Persistent structured species data
+Responsive desktop/mobile UI
+
+Seed the application ONLY with established information supplied here.
+
+Rosavyn and Tomavyn should exist as initial species records only where supported by provided canon.
+
+Do not invent missing information.
+
+Before completion:
+
+Test navigation.
+Test mobile layout.
+Test desktop layout.
+Test species creation.
+Test editing.
+Test persistence.
+Test lifecycle data.
+Test multiple Veyra.
+Test glossary linking.
+Test canon proposals.
+Test accepting/rejecting canon updates.
+Test visual-reference records.
+Check for broken interactions.
+Check for accidental invented canon.
+
+Create a clear architecture for later connection to:
+- ChatGPT/OpenAI reasoning
+- OpenAI image generation
+- Seedwoken knowledge synchronization
+- procedural genetics
+- procedural plant generation
+- interactive 3D anatomy
+
+Do NOT attempt all of those integrations during Milestone 1.
+
+DELIVERABLE
+
+I want a functioning application/prototype that I can actually interact with, not merely a written product plan.
+
+Before building, create your internal implementation plan and inspect the requirements for contradictions or major architectural risks.
+
+Then proceed autonomously.
+
+Do not stop after giving me the plan.
+
+Build Milestone 1.
